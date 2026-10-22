@@ -1,0 +1,3402 @@
+[
+  {
+    "day": 1,
+    "title": "先找“谁”，再选 am / is / are",
+    "focus": "先圈出句子在说谁。I 配 am；he / she / it、一个人或物配 is；you / we / they、复数配 are。you 指一个人时也配 are。",
+    "example": "My sister is happy. → My sister 是一个人，相当于 she，所以用 is。",
+    "main": [
+      {
+        "prompt": "圈出主语（句子在说谁）：The little girl is happy.",
+        "answer": "The little girl",
+        "why": "主语要圈完整，不只圈 girl。"
+      },
+      {
+        "prompt": "圈出主语：Tom and Ben are friends.",
+        "answer": "Tom and Ben",
+        "why": "两个人合起来作主语。"
+      },
+      {
+        "prompt": "填 am / is / are：I ___ nine.",
+        "answer": "am",
+        "why": "I 配 am。"
+      },
+      {
+        "prompt": "填 am / is / are：You ___ my friend.",
+        "answer": "are",
+        "why": "you 即使指一个人也配 are。"
+      },
+      {
+        "prompt": "填 am / is / are：My father ___ tall.",
+        "answer": "is",
+        "why": "My father 是一个人。"
+      },
+      {
+        "prompt": "填 am / is / are：The cats ___ small.",
+        "answer": "are",
+        "why": "cats 是复数。"
+      },
+      {
+        "prompt": "用 he / she / it / they 替换主语：My mother is a teacher.",
+        "answer": "She is a teacher.",
+        "why": "mother 用 she。"
+      },
+      {
+        "prompt": "用代词替换主语：The red bag is new.",
+        "answer": "It is new.",
+        "why": "一个物品用 it。"
+      },
+      {
+        "prompt": "用代词替换主语：Lucy and Lily are happy.",
+        "answer": "They are happy.",
+        "why": "两个人用 they。"
+      },
+      {
+        "prompt": "改正错误：My brother are ten.",
+        "answer": "My brother is ten.",
+        "why": "brother 是一个人，配 is。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "填 am / is / are：The boys ___ in the room.",
+        "answer": "are",
+        "why": "boys 是复数。"
+      },
+      {
+        "prompt": "用代词替换主语：The dog is hungry.",
+        "answer": "It is hungry.",
+        "why": "一只动物，此处用 it。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "填 am / is / are：I ___ nine.",
+        "answer": "am",
+        "why": "I 配 am。",
+        "source": "Day 01 A3"
+      },
+      {
+        "prompt": "用代词替换主语：Lucy and Lily are happy.",
+        "answer": "They are happy.",
+        "why": "两个人用 they。",
+        "source": "Day 01 A9"
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "title": "be：肯定与否定",
+    "focus": "句中已有 am / is / are，否定时就在它后面加 not。is not = isn’t；are not = aren’t；am not 不能写成 amn’t。",
+    "example": "The dog is big. → The dog is not big.",
+    "main": [
+      {
+        "prompt": "改为否定句：She is happy.",
+        "answer": "She is not happy.",
+        "why": "在 is 后加 not；isn't 也对。"
+      },
+      {
+        "prompt": "改为否定句：They are in the classroom.",
+        "answer": "They are not in the classroom.",
+        "why": "在 are 后加 not；aren't 也对。"
+      },
+      {
+        "prompt": "改为否定句，保留 I：I am tired.",
+        "answer": "I am not tired.",
+        "why": "I 不需自动改成 you。"
+      },
+      {
+        "prompt": "写出缩写：He is not tall.",
+        "answer": "He isn't tall.",
+        "why": "is not 缩写成 isn't。"
+      },
+      {
+        "prompt": "写出缩写：We are not late.",
+        "answer": "We aren't late.",
+        "why": "are not 缩写成 aren't。"
+      },
+      {
+        "prompt": "写出完整形式：It isn't cold.",
+        "answer": "It is not cold.",
+        "why": "isn't = is not。"
+      },
+      {
+        "prompt": "选词：The boys (isn't / aren't) hungry.",
+        "answer": "aren't",
+        "why": "boys 是复数。"
+      },
+      {
+        "prompt": "改正错误：Lucy not is sad.",
+        "answer": "Lucy is not sad.",
+        "why": "not 放在 is 后。"
+      },
+      {
+        "prompt": "改正错误：The bag doesn't is blue.",
+        "answer": "The bag is not blue.",
+        "why": "这里用 is 的否定，不加 doesn't。"
+      },
+      {
+        "prompt": "改为肯定句：The flowers aren't red.",
+        "answer": "The flowers are red.",
+        "why": "去掉 not，保留 are。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "改为否定句：Ben is at home.",
+        "answer": "Ben is not at home.",
+        "why": "is 后加 not；isn't 也对。"
+      },
+      {
+        "prompt": "改正错误：I amn't hungry.",
+        "answer": "I am not hungry.",
+        "why": "am not 没有 amn't 这种标准缩写。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "用 he / she / it / they 替换主语：My mother is a teacher.",
+        "answer": "She is a teacher.",
+        "why": "mother 用 she。",
+        "source": "Day 01 A7"
+      },
+      {
+        "prompt": "圈出主语（句子在说谁）：The little girl is happy.",
+        "answer": "The little girl",
+        "why": "主语要圈完整，不只圈 girl。",
+        "source": "Day 01 A1"
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "title": "be：一般疑问句和简短回答",
+    "focus": "一般疑问句是在问“是不是”。把 am / is / are 放到主语前面，句末用问号。简短回答要根据所问的人选代词。",
+    "example": "Lucy is happy. → Is Lucy happy? → Yes, she is. / No, she isn’t.",
+    "main": [
+      {
+        "prompt": "改为一般疑问句：Ben is a pupil.",
+        "answer": "Is Ben a pupil?",
+        "why": "is 提到 Ben 前。"
+      },
+      {
+        "prompt": "改为一般疑问句：The bags are heavy.",
+        "answer": "Are the bags heavy?",
+        "why": "are 提前，bags 不变。"
+      },
+      {
+        "prompt": "改为一般疑问句：The cat is under the chair.",
+        "answer": "Is the cat under the chair?",
+        "why": "is 提前，其余顺序保留。"
+      },
+      {
+        "prompt": "作肯定简短回答：Is Lucy ten?",
+        "answer": "Yes, she is.",
+        "why": "Lucy 用 she，回答保留 is。"
+      },
+      {
+        "prompt": "作否定简短回答：Are the boys tired?",
+        "answer": "No, they aren't.",
+        "why": "boys 用 they。"
+      },
+      {
+        "prompt": "作否定简短回答：Is the milk hot?",
+        "answer": "No, it isn't.",
+        "why": "milk 用 it。"
+      },
+      {
+        "prompt": "选词：___ your sister at school? (Is / Does)",
+        "answer": "Is",
+        "why": "表示“在哪里”，原结构是 sister is。"
+      },
+      {
+        "prompt": "连词成句：your / are / friends / they / ?",
+        "answer": "Are they your friends?",
+        "why": "Are + 主语 they + 其余部分。"
+      },
+      {
+        "prompt": "改正错误：Does Tom is happy?",
+        "answer": "Is Tom happy?",
+        "why": "已有 is，不再加 does。"
+      },
+      {
+        "prompt": "按对话回答，回答者是你本人：Are you ready?（肯定）",
+        "answer": "Yes, I am.",
+        "why": "对方问 you，你用 I 回答。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "改为一般疑问句：The book is on the desk.",
+        "answer": "Is the book on the desk?",
+        "why": "is 放主语前。"
+      },
+      {
+        "prompt": "作否定简短回答：Are the cats hungry?",
+        "answer": "No, they aren't.",
+        "why": "cats 用 they，are 配 aren't。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "改为肯定句：The flowers aren't red.",
+        "answer": "The flowers are red.",
+        "why": "去掉 not，保留 are。",
+        "source": "Day 02 A10"
+      },
+      {
+        "prompt": "填 am / is / are：You ___ my friend.",
+        "answer": "are",
+        "why": "you 即使指一个人也配 are。",
+        "source": "Day 01 A4"
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "title": "can：会不会、能不能",
+    "focus": "can 后接动词原形，主语换成 he / she 也不加 s。否定用 cannot / can’t；提问时把 can 放在主语前。",
+    "example": "She can swim. → Can she swim? → She can’t swim.",
+    "main": [
+      {
+        "prompt": "选词：Tom can (swim / swims).",
+        "answer": "swim",
+        "why": "can 后用原形。"
+      },
+      {
+        "prompt": "改为否定句：Lucy can dance.",
+        "answer": "Lucy can't dance.",
+        "why": "can't 后仍是 dance；cannot 也对。"
+      },
+      {
+        "prompt": "改为一般疑问句：The boy can ride a bike.",
+        "answer": "Can the boy ride a bike?",
+        "why": "can 提前，ride 不变。"
+      },
+      {
+        "prompt": "作肯定简短回答：Can Ben run fast?",
+        "answer": "Yes, he can.",
+        "why": "用 can 回答。"
+      },
+      {
+        "prompt": "作否定简短回答：Can the girls sing?",
+        "answer": "No, they can't.",
+        "why": "girls 用 they。"
+      },
+      {
+        "prompt": "用 She 改写整句：They can draw.",
+        "answer": "She can draw.",
+        "why": "can 和 draw 都不加 s。"
+      },
+      {
+        "prompt": "改正错误：He cans jump.",
+        "answer": "He can jump.",
+        "why": "can 没有这里的 cans 形式。"
+      },
+      {
+        "prompt": "改正错误：Does Lucy can swim?",
+        "answer": "Can Lucy swim?",
+        "why": "can 自己提前，不加 does。"
+      },
+      {
+        "prompt": "连词成句：can / the / fly / bird / ?",
+        "answer": "Can the bird fly?",
+        "why": "can + 主语 + 原形。"
+      },
+      {
+        "prompt": "先写中文意思，再改一般疑问句：Tom can cook.",
+        "answer": "汤姆会做饭。Can Tom cook?",
+        "why": "先理解能力，再把 can 提前。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "改为否定句：The dog can swim.",
+        "answer": "The dog can't swim.",
+        "why": "can 后加 not。"
+      },
+      {
+        "prompt": "改正错误：Can she dances?",
+        "answer": "Can she dance?",
+        "why": "can 后动词用原形。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "改为一般疑问句：The cat is under the chair.",
+        "answer": "Is the cat under the chair?",
+        "why": "is 提前，其余顺序保留。",
+        "source": "Day 03 A3"
+      },
+      {
+        "prompt": "用 he / she / it / they 替换主语：My mother is a teacher.",
+        "answer": "She is a teacher.",
+        "why": "mother 用 she。",
+        "source": "Day 01 A7"
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "title": "小复习一：be 和 can 分清楚",
+    "focus": "独立完成。本页不提供规则或例题；先判断要表达什么，再决定怎样改。",
+    "example": "",
+    "main": [
+      {
+        "prompt": "填空：The children ___ happy. (am / is / are)",
+        "answer": "are",
+        "why": "children 是复数。"
+      },
+      {
+        "prompt": "改为一般疑问句：The girl is tired.",
+        "answer": "Is the girl tired?",
+        "why": "is 提前。"
+      },
+      {
+        "prompt": "改为一般疑问句：The girl can skate.",
+        "answer": "Can the girl skate?",
+        "why": "can 提前。"
+      },
+      {
+        "prompt": "改为否定句：The boys are at home.",
+        "answer": "The boys are not at home.",
+        "why": "are 后加 not；aren't 也对。"
+      },
+      {
+        "prompt": "改为否定句：The boys can swim.",
+        "answer": "The boys can't swim.",
+        "why": "can't 后用原形。"
+      },
+      {
+        "prompt": "作肯定简短回答：Is your father tall?",
+        "answer": "Yes, he is.",
+        "why": "father 用 he。"
+      },
+      {
+        "prompt": "作否定简短回答：Can Lucy draw?",
+        "answer": "No, she can't.",
+        "why": "Lucy 用 she，can 配 can't。"
+      },
+      {
+        "prompt": "改正错误：The cat are small.",
+        "answer": "The cat is small.",
+        "why": "一只 cat 配 is。"
+      },
+      {
+        "prompt": "改正错误：She can sings.",
+        "answer": "She can sing.",
+        "why": "can 后还原。"
+      },
+      {
+        "prompt": "按对话回答，回答者是你本人：Are you a pupil?（肯定）",
+        "answer": "Yes, I am.",
+        "why": "问 you，回答 I。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "改为一般疑问句：The ducks are in the water.",
+        "answer": "Are the ducks in the water?",
+        "why": "are 提前。"
+      },
+      {
+        "prompt": "改正错误：Is Ben can ride a bike?",
+        "answer": "Can Ben ride a bike?",
+        "why": "能不能用 can 这套结构。"
+      }
+    ],
+    "checkpoint": true,
+    "review": [
+      {
+        "prompt": "用 She 改写整句：They can draw.",
+        "answer": "She can draw.",
+        "why": "can 和 draw 都不加 s。",
+        "source": "Day 04 A6"
+      },
+      {
+        "prompt": "改为肯定句：The flowers aren't red.",
+        "answer": "The flowers are red.",
+        "why": "去掉 not，保留 are。",
+        "source": "Day 02 A10"
+      }
+    ]
+  },
+  {
+    "day": 6,
+    "title": "普通动词：先看主语是不是第三人称单数",
+    "focus": "一般现在时中，I / you / we / they 后普通动词通常用原形；he / she / it、一个人的名字或单数名词作主语时，动词要用第三人称单数形式。“第三人称单数”不是“只要一个人”：I、you 不属于这一组。",
+    "example": "I like cats. / Tom likes cats. / Tom and Lucy like cats.",
+    "main": [
+      {
+        "prompt": "判断主语是否第三人称单数（是 / 否）：I",
+        "answer": "否",
+        "why": "I 是第一人称。"
+      },
+      {
+        "prompt": "判断主语是否第三人称单数（是 / 否）：you（指一个人）",
+        "answer": "否",
+        "why": "you 是第二人称。"
+      },
+      {
+        "prompt": "判断主语是否第三人称单数（是 / 否）：My sister",
+        "answer": "是",
+        "why": "一个姐姐 / 妹妹，相当于 she。"
+      },
+      {
+        "prompt": "判断主语是否第三人称单数（是 / 否）：Tom and Ben",
+        "answer": "否",
+        "why": "两个人，是复数。"
+      },
+      {
+        "prompt": "选词：I (like / likes) milk.",
+        "answer": "like",
+        "why": "I 后用原形。"
+      },
+      {
+        "prompt": "选词：She (like / likes) milk.",
+        "answer": "likes",
+        "why": "she 后用三单形式。"
+      },
+      {
+        "prompt": "选词：The boys (play / plays) football.",
+        "answer": "play",
+        "why": "boys 是复数。"
+      },
+      {
+        "prompt": "选词：My father (read / reads) books every day.",
+        "answer": "reads",
+        "why": "father 是一个人。"
+      },
+      {
+        "prompt": "用 He 改写：They eat rice every day.",
+        "answer": "He eats rice every day.",
+        "why": "eat 变 eats。"
+      },
+      {
+        "prompt": "改正错误：You likes apples.",
+        "answer": "You like apples.",
+        "why": "you 后不用三单形式。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "选词：The dog (run / runs) every morning.",
+        "answer": "runs",
+        "why": "dog 是单数主语。"
+      },
+      {
+        "prompt": "用 They 改写：She likes cats.",
+        "answer": "They like cats.",
+        "why": "复数主语配 like。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "改正错误：She can sings.",
+        "answer": "She can sing.",
+        "why": "can 后还原。",
+        "source": "Day 05 A9"
+      },
+      {
+        "prompt": "改为一般疑问句：The cat is under the chair.",
+        "answer": "Is the cat under the chair?",
+        "why": "is 提前，其余顺序保留。",
+        "source": "Day 03 A3"
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "title": "第三人称单数：s、es、ies 和特殊变化",
+    "focus": "多数动词加 s；以 s / x / ch / sh 等结尾常加 es；辅音字母 + y 结尾，变 y 为 ies；元音字母 + y 直接加 s。记住 have → has、do → does、go → goes。",
+    "example": "play → plays；study → studies；watch → watches；have → has。",
+    "main": [
+      {
+        "prompt": "写出第三人称单数形式：read",
+        "answer": "reads",
+        "why": "直接加 s。"
+      },
+      {
+        "prompt": "写出第三人称单数形式：watch",
+        "answer": "watches",
+        "why": "ch 后加 es。"
+      },
+      {
+        "prompt": "写出第三人称单数形式：wash",
+        "answer": "washes",
+        "why": "sh 后加 es。"
+      },
+      {
+        "prompt": "写出第三人称单数形式：study",
+        "answer": "studies",
+        "why": "辅音字母 d + y，变 ies。"
+      },
+      {
+        "prompt": "写出第三人称单数形式：play",
+        "answer": "plays",
+        "why": "a 是元音字母，保留 y 加 s。"
+      },
+      {
+        "prompt": "写出第三人称单数形式：go",
+        "answer": "goes",
+        "why": "记住 goes。"
+      },
+      {
+        "prompt": "写出第三人称单数形式：do",
+        "answer": "does",
+        "why": "特殊变化 does。"
+      },
+      {
+        "prompt": "写出第三人称单数形式：have",
+        "answer": "has",
+        "why": "特殊变化 has。"
+      },
+      {
+        "prompt": "用所给词填空：My sister ___ English every day. (study)",
+        "answer": "studies",
+        "why": "主语是单数，study 变 studies。"
+      },
+      {
+        "prompt": "用所给词填空：Ben ___ TV after dinner. (watch)",
+        "answer": "watches",
+        "why": "Ben 配 watches。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "用所给词填空：The baby ___ at night. (cry)",
+        "answer": "cries",
+        "why": "辅音字母 r + y，变 ies。"
+      },
+      {
+        "prompt": "改正错误：Lucy plaies tennis every week.",
+        "answer": "Lucy plays tennis every week.",
+        "why": "play 是元音字母 + y。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "判断主语是否第三人称单数（是 / 否）：you（指一个人）",
+        "answer": "否",
+        "why": "you 是第二人称。",
+        "source": "Day 06 A2"
+      },
+      {
+        "prompt": "用 She 改写整句：They can draw.",
+        "answer": "She can draw.",
+        "why": "can 和 draw 都不加 s。",
+        "source": "Day 04 A6"
+      }
+    ]
+  },
+  {
+    "day": 8,
+    "title": "do / does：普通动词的一般疑问句",
+    "focus": "一般现在时的普通动词提问，I / you / we / they 等用 Do，he / she / it 等用 Does。加了 Does，后面的动词回原形。do 在这里帮助提问，不必翻译成“做”。",
+    "example": "Lucy likes cats. → Does Lucy like cats?",
+    "main": [
+      {
+        "prompt": "填 Do / Does：___ the boys like football?",
+        "answer": "Do",
+        "why": "boys 是复数。"
+      },
+      {
+        "prompt": "填 Do / Does：___ your mother read books?",
+        "answer": "Does",
+        "why": "mother 是单数。"
+      },
+      {
+        "prompt": "改为一般疑问句：They play tennis.",
+        "answer": "Do they play tennis?",
+        "why": "Do + they + 原形。"
+      },
+      {
+        "prompt": "改为一般疑问句：He plays tennis.",
+        "answer": "Does he play tennis?",
+        "why": "plays 回到 play。"
+      },
+      {
+        "prompt": "改为一般疑问句：Lucy studies English.",
+        "answer": "Does Lucy study English?",
+        "why": "studies 回到 study。"
+      },
+      {
+        "prompt": "改为一般疑问句：Ben goes to school by bus.",
+        "answer": "Does Ben go to school by bus?",
+        "why": "goes 回到 go。"
+      },
+      {
+        "prompt": "作肯定简短回答：Does Tom like milk?",
+        "answer": "Yes, he does.",
+        "why": "does 问，does 答。"
+      },
+      {
+        "prompt": "作否定简短回答：Do the girls play football?",
+        "answer": "No, they don't.",
+        "why": "Do 问，don't 否定回答。"
+      },
+      {
+        "prompt": "改正错误：Does she watches TV?",
+        "answer": "Does she watch TV?",
+        "why": "does 后用原形。"
+      },
+      {
+        "prompt": "改正错误：Is Ben like apples?",
+        "answer": "Does Ben like apples?",
+        "why": "like 是普通动词，用 does 提问。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "改为一般疑问句：The cat drinks milk.",
+        "answer": "Does the cat drink milk?",
+        "why": "drinks 还原为 drink。"
+      },
+      {
+        "prompt": "作否定简短回答：Does Lucy go to school by bike?",
+        "answer": "No, she doesn't.",
+        "why": "Lucy 用 she，配 doesn't。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "写出第三人称单数形式：play",
+        "answer": "plays",
+        "why": "a 是元音字母，保留 y 加 s。",
+        "source": "Day 07 A5"
+      },
+      {
+        "prompt": "用代词替换主语：Lucy and Lily are happy.",
+        "answer": "They are happy.",
+        "why": "两个人用 they。",
+        "source": "Day 01 A9"
+      }
+    ]
+  },
+  {
+    "day": 9,
+    "title": "don’t / doesn’t：普通动词的否定句",
+    "focus": "一般现在时的普通动词否定：I / you / we / they 等用 don’t；he / she / it 等用 doesn’t；后面都接动词原形。",
+    "example": "She likes milk. → She doesn’t like milk.",
+    "main": [
+      {
+        "prompt": "选词：I (don't / doesn't) like fish.",
+        "answer": "don't",
+        "why": "I 配 don't。"
+      },
+      {
+        "prompt": "选词：My brother (don't / doesn't) play tennis.",
+        "answer": "doesn't",
+        "why": "brother 是单数。"
+      },
+      {
+        "prompt": "改为否定句：They read books every day.",
+        "answer": "They don't read books every day.",
+        "why": "普通动词前加 don't。"
+      },
+      {
+        "prompt": "改为否定句：Lucy reads books every day.",
+        "answer": "Lucy doesn't read books every day.",
+        "why": "reads 回到 read。"
+      },
+      {
+        "prompt": "改为否定句：Ben studies Chinese.",
+        "answer": "Ben doesn't study Chinese.",
+        "why": "studies 回到 study。"
+      },
+      {
+        "prompt": "改为否定句：The dog eats rice.",
+        "answer": "The dog doesn't eat rice.",
+        "why": "eats 回到 eat。"
+      },
+      {
+        "prompt": "改正错误：He doesn't likes bananas.",
+        "answer": "He doesn't like bananas.",
+        "why": "doesn't 后不保留 s。"
+      },
+      {
+        "prompt": "改正错误：They aren't play football.",
+        "answer": "They don't play football.",
+        "why": "这里是普通动词的一般现在时。"
+      },
+      {
+        "prompt": "改为肯定句：She doesn't watch TV on Monday.",
+        "answer": "She watches TV on Monday.",
+        "why": "去掉 doesn't 后，watch 恢复三单。"
+      },
+      {
+        "prompt": "按对话回答，回答者是你本人：Do you like milk?（否定）",
+        "answer": "No, I don't.",
+        "why": "问 you，回答 I。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "改为否定句：My father goes to work by car.",
+        "answer": "My father doesn't go to work by car.",
+        "why": "goes 还原成 go。"
+      },
+      {
+        "prompt": "改为肯定句：The boy doesn't wash his hands before lunch.",
+        "answer": "The boy washes his hands before lunch.",
+        "why": "单数主语，wash 加 es。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "作否定简短回答：Do the girls play football?",
+        "answer": "No, they don't.",
+        "why": "Do 问，don't 否定回答。",
+        "source": "Day 08 A8"
+      },
+      {
+        "prompt": "改为否定句：They are in the classroom.",
+        "answer": "They are not in the classroom.",
+        "why": "在 are 后加 not；aren't 也对。",
+        "source": "Day 02 A2"
+      }
+    ]
+  },
+  {
+    "day": 10,
+    "title": "小复习二：be / can / do 三路混合",
+    "focus": "独立完成。本页不提供规则或例题；同样是“提问”，要先看原句的结构。",
+    "example": "",
+    "main": [
+      {
+        "prompt": "改为一般疑问句：Lucy is a pupil.",
+        "answer": "Is Lucy a pupil?",
+        "why": "be 结构，is 提前。"
+      },
+      {
+        "prompt": "改为一般疑问句：Lucy can draw.",
+        "answer": "Can Lucy draw?",
+        "why": "can 提前。"
+      },
+      {
+        "prompt": "改为一般疑问句：Lucy draws cats.",
+        "answer": "Does Lucy draw cats?",
+        "why": "普通动词，does + 原形。"
+      },
+      {
+        "prompt": "改为否定句：The boys are tired.",
+        "answer": "The boys are not tired.",
+        "why": "are 后加 not。"
+      },
+      {
+        "prompt": "改为否定句：The boys can skate.",
+        "answer": "The boys can't skate.",
+        "why": "can 后加 not。"
+      },
+      {
+        "prompt": "改为否定句：The boys skate every Sunday.",
+        "answer": "The boys don't skate every Sunday.",
+        "why": "复数主语，don't + 原形。"
+      },
+      {
+        "prompt": "用所给词填空：My sister ___ to school every day. (walk)",
+        "answer": "walks",
+        "why": "普通动词肯定句用三单。"
+      },
+      {
+        "prompt": "改正错误：Does he is ten?",
+        "answer": "Is he ten?",
+        "why": "is 提问，不加 does。"
+      },
+      {
+        "prompt": "改正错误：Can she plays football?",
+        "answer": "Can she play football?",
+        "why": "can 后用原形。"
+      },
+      {
+        "prompt": "作否定简短回答：Does Ben study English?",
+        "answer": "No, he doesn't.",
+        "why": "Does 问，doesn't 答。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "改为一般疑问句：The bird sings every morning.",
+        "answer": "Does the bird sing every morning?",
+        "why": "sings 还原为 sing。"
+      },
+      {
+        "prompt": "改为否定句：The bird can sing.",
+        "answer": "The bird can't sing.",
+        "why": "用 can 的否定。"
+      }
+    ],
+    "checkpoint": true,
+    "review": [
+      {
+        "prompt": "选词：I (don't / doesn't) like fish.",
+        "answer": "don't",
+        "why": "I 配 don't。",
+        "source": "Day 09 A1"
+      },
+      {
+        "prompt": "作否定简短回答：Are the boys tired?",
+        "answer": "No, they aren't.",
+        "why": "boys 用 they。",
+        "source": "Day 03 A5"
+      }
+    ]
+  },
+  {
+    "day": 11,
+    "title": "have / has：谁有，谁吃，谁上课",
+    "focus": "一般现在时肯定句中，I / you / we / they 用 have；he / she / it 等第三人称单数用 has。have 可以表示“有”，也出现在 have breakfast、have a lesson 等搭配中。",
+    "example": "They have a ball. / She has a ball. / She has breakfast at seven.",
+    "main": [
+      {
+        "prompt": "选词：I (have / has) a new bag.",
+        "answer": "have",
+        "why": "I 配 have。"
+      },
+      {
+        "prompt": "选词：You (have / has) a red pen.",
+        "answer": "have",
+        "why": "you 配 have。"
+      },
+      {
+        "prompt": "选词：Tom (have / has) a bike.",
+        "answer": "has",
+        "why": "Tom 是三单主语。"
+      },
+      {
+        "prompt": "选词：The girls (have / has) long hair.",
+        "answer": "have",
+        "why": "girls 是复数。"
+      },
+      {
+        "prompt": "用所给词填空：My father ___ breakfast at seven. (have)",
+        "answer": "has",
+        "why": "have breakfast 表示吃早饭。"
+      },
+      {
+        "prompt": "用所给词填空：We ___ an English lesson on Monday. (have)",
+        "answer": "have",
+        "why": "we 配 have。"
+      },
+      {
+        "prompt": "用 She 改写：They have a cat.",
+        "answer": "She has a cat.",
+        "why": "have 变 has。"
+      },
+      {
+        "prompt": "用 They 改写：He has two books.",
+        "answer": "They have two books.",
+        "why": "has 变 have。"
+      },
+      {
+        "prompt": "改正错误：My brother haves a football.",
+        "answer": "My brother has a football.",
+        "why": "have 的三单是 has。"
+      },
+      {
+        "prompt": "改正错误：She can has some milk now.",
+        "answer": "She can have some milk now.",
+        "why": "can 后用原形 have。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "用所给词填空：The dog ___ a long tail. (have)",
+        "answer": "has",
+        "why": "一只狗配 has。"
+      },
+      {
+        "prompt": "用 We 改写：She has lunch at school.",
+        "answer": "We have lunch at school.",
+        "why": "复数主语配 have。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "改为否定句：The boys are tired.",
+        "answer": "The boys are not tired.",
+        "why": "are 后加 not。",
+        "source": "Day 10 A4"
+      },
+      {
+        "prompt": "改正错误：Does Lucy can swim?",
+        "answer": "Can Lucy swim?",
+        "why": "can 自己提前，不加 does。",
+        "source": "Day 04 A8"
+      }
+    ]
+  },
+  {
+    "day": 12,
+    "title": "have：用 do / does 提问和否定",
+    "focus": "本页练不带 got 的 have，统一使用 do / does 这套：Does she have…? / She doesn’t have…；have breakfast 也按普通动词处理。",
+    "example": "He has a bike. → Does he have a bike? → He doesn’t have a bike.",
+    "main": [
+      {
+        "prompt": "改为一般疑问句（用 Do）：They have a ball.",
+        "answer": "Do they have a ball?",
+        "why": "have 作普通动词。"
+      },
+      {
+        "prompt": "改为一般疑问句（用 Does）：Lucy has a bike.",
+        "answer": "Does Lucy have a bike?",
+        "why": "has 还原为 have。"
+      },
+      {
+        "prompt": "改为否定句（用 doesn't）：Ben has a kite.",
+        "answer": "Ben doesn't have a kite.",
+        "why": "doesn't 后用 have。"
+      },
+      {
+        "prompt": "改为否定句（用 don't）：The boys have a dog.",
+        "answer": "The boys don't have a dog.",
+        "why": "boys 配 don't。"
+      },
+      {
+        "prompt": "改为一般疑问句：She has breakfast at home.",
+        "answer": "Does she have breakfast at home?",
+        "why": "has breakfast 中 has 也还原。"
+      },
+      {
+        "prompt": "作肯定简短回答：Does Lucy have a sister?",
+        "answer": "Yes, she does.",
+        "why": "does 问，does 答。"
+      },
+      {
+        "prompt": "作否定简短回答：Do the boys have a ball?",
+        "answer": "No, they don't.",
+        "why": "Do 问，don't 答。"
+      },
+      {
+        "prompt": "改正错误：Does Ben has a ruler?",
+        "answer": "Does Ben have a ruler?",
+        "why": "does 后不能保留 has。"
+      },
+      {
+        "prompt": "改正错误：She doesn't has lunch at school.",
+        "answer": "She doesn't have lunch at school.",
+        "why": "doesn't 后用 have。"
+      },
+      {
+        "prompt": "改为肯定句：He doesn't have a pet.",
+        "answer": "He has a pet.",
+        "why": "去掉 doesn't 后，have 变 has。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "改为一般疑问句（用 Does）：The cat has a long tail.",
+        "answer": "Does the cat have a long tail?",
+        "why": "has 变 have。"
+      },
+      {
+        "prompt": "改为否定句（用 doesn't）：My mother has tea after lunch.",
+        "answer": "My mother doesn't have tea after lunch.",
+        "why": "否定用 doesn't have。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "用 She 改写：They have a cat.",
+        "answer": "She has a cat.",
+        "why": "have 变 has。",
+        "source": "Day 11 A7"
+      },
+      {
+        "prompt": "填空：The children ___ happy. (am / is / are)",
+        "answer": "are",
+        "why": "children 是复数。",
+        "source": "Day 05 A1"
+      }
+    ]
+  },
+  {
+    "day": 13,
+    "title": "have got：另一套结构，别混搭",
+    "focus": "表示“拥有”时，have / has got 是另一套：提问把 have / has 提前；否定在它后面加 not。不要把 does 与 has got 拼在一起。此处是“拥有”，不是现在完成时教学。",
+    "example": "She has got a bike. → Has she got a bike? → She hasn’t got a bike.",
+    "main": [
+      {
+        "prompt": "选词：Tom (have / has) got a blue bag.",
+        "answer": "has",
+        "why": "Tom 配 has got。"
+      },
+      {
+        "prompt": "改为一般疑问句，保留 got：They have got a kite.",
+        "answer": "Have they got a kite?",
+        "why": "have 提前，got 保留。"
+      },
+      {
+        "prompt": "改为一般疑问句，保留 got：Lucy has got a doll.",
+        "answer": "Has Lucy got a doll?",
+        "why": "has 提前。"
+      },
+      {
+        "prompt": "改为否定句，保留 got：He has got a bike.",
+        "answer": "He hasn't got a bike.",
+        "why": "has 后加 not。"
+      },
+      {
+        "prompt": "作肯定简短回答：Has Ben got a ball?",
+        "answer": "Yes, he has.",
+        "why": "has 问，has 答，简答不必写 got。"
+      },
+      {
+        "prompt": "作否定简短回答：Have the girls got any books?",
+        "answer": "No, they haven't.",
+        "why": "have 问，haven't 答。"
+      },
+      {
+        "prompt": "改正错误，保留 got：Does she has got a cat?",
+        "answer": "Has she got a cat?",
+        "why": "have got 结构不用 does。"
+      },
+      {
+        "prompt": "改写同义句，用 has got：Tom has a ruler.",
+        "answer": "Tom has got a ruler.",
+        "why": "这里两种形式都表示拥有。"
+      },
+      {
+        "prompt": "改写同义句，用 Does 且不含 got：Has Lucy got a kite?",
+        "answer": "Does Lucy have a kite?",
+        "why": "换成普通 have 结构。"
+      },
+      {
+        "prompt": "选择表达“她每天七点吃早饭”：She (has / has got) breakfast at seven every day.",
+        "answer": "has",
+        "why": "日常吃早饭用 has breakfast。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "改为一般疑问句，保留 got：The dog has got big ears.",
+        "answer": "Has the dog got big ears?",
+        "why": "has 提前。"
+      },
+      {
+        "prompt": "改写同义句，用 doesn't 且不含 got：He hasn't got a sister.",
+        "answer": "He doesn't have a sister.",
+        "why": "转换整套结构，不能混搭。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "改为肯定句：He doesn't have a pet.",
+        "answer": "He has a pet.",
+        "why": "去掉 doesn't 后，have 变 has。",
+        "source": "Day 12 A10"
+      },
+      {
+        "prompt": "判断主语是否第三人称单数（是 / 否）：Tom and Ben",
+        "answer": "否",
+        "why": "两个人，是复数。",
+        "source": "Day 06 A4"
+      }
+    ]
+  },
+  {
+    "day": 14,
+    "title": "there be：某处有；some / any 看语境",
+    "focus": "there is / are 表示“某处有”；人“拥有”通常用 have / has。there be 提问把 is / are 提前，简答用 there。普通询问或否定中 some 常改 any；请求、邀请中可保留 some。",
+    "example": "There are some books on the desk. → Are there any books on the desk?",
+    "main": [
+      {
+        "prompt": "填 is / are：There ___ a cat under the table.",
+        "answer": "is",
+        "why": "a cat 是单数。"
+      },
+      {
+        "prompt": "填 is / are：There ___ three books in the bag.",
+        "answer": "are",
+        "why": "three books 是复数。"
+      },
+      {
+        "prompt": "填 is / are：There ___ some milk in the glass.",
+        "answer": "is",
+        "why": "milk 是不可数名词。"
+      },
+      {
+        "prompt": "选词：Tom (has / there is) a red bag.",
+        "answer": "has",
+        "why": "Tom 拥有一个包。"
+      },
+      {
+        "prompt": "改为一般疑问句：There is a ball in the box.",
+        "answer": "Is there a ball in the box?",
+        "why": "is 提到 there 前。"
+      },
+      {
+        "prompt": "改为一般疑问句（普通询问）：There are some apples on the table.",
+        "answer": "Are there any apples on the table?",
+        "why": "are 提前，some 变 any。"
+      },
+      {
+        "prompt": "改为否定句：There is some water in the bottle.",
+        "answer": "There isn't any water in the bottle.",
+        "why": "is 后加 not，some 变 any。"
+      },
+      {
+        "prompt": "作肯定简短回答：Are there any books on the desk?",
+        "answer": "Yes, there are.",
+        "why": "there be 的简答保留 there。"
+      },
+      {
+        "prompt": "作否定简短回答：Is there a dog in the room?",
+        "answer": "No, there isn't.",
+        "why": "不能用 it isn't 代替本题简答。"
+      },
+      {
+        "prompt": "选词：Would you like (some / any) milk?（邀请对方喝一点）",
+        "answer": "some",
+        "why": "邀请中可以用 some，不能见问号就改 any。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "改为一般疑问句（普通询问）：There is some juice in the cup.",
+        "answer": "Is there any juice in the cup?",
+        "why": "is 提前，some 变 any。"
+      },
+      {
+        "prompt": "改为否定句：There are some birds in the tree.",
+        "answer": "There aren't any birds in the tree.",
+        "why": "are not + any。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "改为一般疑问句，保留 got：Lucy has got a doll.",
+        "answer": "Has Lucy got a doll?",
+        "why": "has 提前。",
+        "source": "Day 13 A3"
+      },
+      {
+        "prompt": "写出第三人称单数形式：do",
+        "answer": "does",
+        "why": "特殊变化 does。",
+        "source": "Day 07 A7"
+      }
+    ]
+  },
+  {
+    "day": 15,
+    "title": "小复习三：have、have got、there be",
+    "focus": "独立完成。本页不提供规则或例题；看清题目要求保留哪一套结构。",
+    "example": "",
+    "main": [
+      {
+        "prompt": "填空：My sister ___ a new bike. (have / has)",
+        "answer": "has",
+        "why": "单数主语配 has。"
+      },
+      {
+        "prompt": "改为一般疑问句（用 Does）：Tom has a pet.",
+        "answer": "Does Tom have a pet?",
+        "why": "does + have。"
+      },
+      {
+        "prompt": "改为否定句（用 doesn't）：Lucy has lunch at home.",
+        "answer": "Lucy doesn't have lunch at home.",
+        "why": "doesn't 后用 have。"
+      },
+      {
+        "prompt": "改为一般疑问句，保留 got：Ben has got a toy car.",
+        "answer": "Has Ben got a toy car?",
+        "why": "has 提前。"
+      },
+      {
+        "prompt": "作否定简短回答：Has Lucy got a ruler?",
+        "answer": "No, she hasn't.",
+        "why": "has 问，hasn't 答。"
+      },
+      {
+        "prompt": "填空：There ___ two cats under the tree. (is / are)",
+        "answer": "are",
+        "why": "两只猫配 are。"
+      },
+      {
+        "prompt": "改为一般疑问句（普通询问）：There are some oranges in the box.",
+        "answer": "Are there any oranges in the box?",
+        "why": "are 提前，some 变 any。"
+      },
+      {
+        "prompt": "作否定简短回答：Are there any flowers in the room?",
+        "answer": "No, there aren't.",
+        "why": "there 的简答。"
+      },
+      {
+        "prompt": "改正错误：Does she has a brother?",
+        "answer": "Does she have a brother?",
+        "why": "does 后还原。"
+      },
+      {
+        "prompt": "改正错误：There have three books on the desk.",
+        "answer": "There are three books on the desk.",
+        "why": "表示某处有，使用 there are。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "改为否定句，保留 got：The boy has got a robot.",
+        "answer": "The boy hasn't got a robot.",
+        "why": "has 后加 not。"
+      },
+      {
+        "prompt": "作肯定简短回答：Does the girl have a kite?",
+        "answer": "Yes, she does.",
+        "why": "用 does 回答。"
+      }
+    ],
+    "checkpoint": true,
+    "review": [
+      {
+        "prompt": "改为一般疑问句（普通询问）：There are some apples on the table.",
+        "answer": "Are there any apples on the table?",
+        "why": "are 提前，some 变 any。",
+        "source": "Day 14 A6"
+      },
+      {
+        "prompt": "改正错误：Is Ben like apples?",
+        "answer": "Does Ben like apples?",
+        "why": "like 是普通动词，用 does 提问。",
+        "source": "Day 08 A10"
+      }
+    ]
+  },
+  {
+    "day": 16,
+    "title": "现在进行时：be + 动词 ing",
+    "focus": "描述正在发生的动作，用 am / is / are + 动词 ing。问句把 be 提前；否定在 be 后加 not。动词 ing 不能代替 be，句中也不用再加 do / does。",
+    "example": "Tom is reading. → Is Tom reading? → Tom isn’t reading.",
+    "main": [
+      {
+        "prompt": "填空：Lucy ___ reading now. (am / is / are)",
+        "answer": "is",
+        "why": "Lucy 配 is。"
+      },
+      {
+        "prompt": "填空：The boys ___ playing football now. (am / is / are)",
+        "answer": "are",
+        "why": "boys 配 are。"
+      },
+      {
+        "prompt": "写出 ing 形式：make",
+        "answer": "making",
+        "why": "去掉不发音的 e 再加 ing。"
+      },
+      {
+        "prompt": "写出 ing 形式：run",
+        "answer": "running",
+        "why": "双写 n 再加 ing。"
+      },
+      {
+        "prompt": "写出 ing 形式：swim",
+        "answer": "swimming",
+        "why": "双写 m 再加 ing。"
+      },
+      {
+        "prompt": "改为一般疑问句：Lucy is drawing a cat.",
+        "answer": "Is Lucy drawing a cat?",
+        "why": "is 提前，drawing 保留。"
+      },
+      {
+        "prompt": "改为否定句：The children are singing.",
+        "answer": "The children aren't singing.",
+        "why": "are 后加 not。"
+      },
+      {
+        "prompt": "作肯定简短回答：Is Ben sleeping?",
+        "answer": "Yes, he is.",
+        "why": "is 问，is 答。"
+      },
+      {
+        "prompt": "改正错误：She reading a book now.",
+        "answer": "She is reading a book now.",
+        "why": "正在做，需要 is reading。"
+      },
+      {
+        "prompt": "改正错误：Does Tom playing football now?",
+        "answer": "Is Tom playing football now?",
+        "why": "进行时用 is 提问。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "改为一般疑问句：The dog is running now.",
+        "answer": "Is the dog running now?",
+        "why": "is 提前。"
+      },
+      {
+        "prompt": "改为否定句：They are making a cake.",
+        "answer": "They aren't making a cake.",
+        "why": "are 后加 not。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "改正错误：Does she has a brother?",
+        "answer": "Does she have a brother?",
+        "why": "does 后还原。",
+        "source": "Day 15 A9"
+      },
+      {
+        "prompt": "改为否定句：They read books every day.",
+        "answer": "They don't read books every day.",
+        "why": "普通动词前加 don't。",
+        "source": "Day 09 A3"
+      }
+    ]
+  },
+  {
+    "day": 17,
+    "title": "每天做，和正在做",
+    "focus": "every day / usually 等常描述习惯，用一般现在时；明确说 now / Look! / Listen! 且描述正在发生的动作时，用现在进行时。先理解时间和意思，不只找词。",
+    "example": "She reads every day. / She is reading now.",
+    "main": [
+      {
+        "prompt": "用所给词填空：Tom ___ football every Sunday. (play)",
+        "answer": "plays",
+        "why": "习惯动作，单数主语用 plays。"
+      },
+      {
+        "prompt": "用所给词填空：Look! Tom ___ football. (play)",
+        "answer": "is playing",
+        "why": "眼前正在踢球。"
+      },
+      {
+        "prompt": "用所给词填空：The girls ___ every morning. (sing)",
+        "answer": "sing",
+        "why": "复数主语的习惯动作用原形。"
+      },
+      {
+        "prompt": "用所给词填空：Listen! The girls ___. (sing)",
+        "answer": "are singing",
+        "why": "正在唱歌，are + singing。"
+      },
+      {
+        "prompt": "改为一般疑问句：Lucy reads every day.",
+        "answer": "Does Lucy read every day?",
+        "why": "一般现在时用 does。"
+      },
+      {
+        "prompt": "改为一般疑问句：Lucy is reading now.",
+        "answer": "Is Lucy reading now?",
+        "why": "现在进行时用 is。"
+      },
+      {
+        "prompt": "改为否定句：Ben swims every Saturday.",
+        "answer": "Ben doesn't swim every Saturday.",
+        "why": "doesn't 后用 swim。"
+      },
+      {
+        "prompt": "改为否定句：Ben is swimming now.",
+        "answer": "Ben isn't swimming now.",
+        "why": "is 后加 not。"
+      },
+      {
+        "prompt": "把 every day 改为 now，并改写：She makes a cake every day.",
+        "answer": "She is making a cake now.",
+        "why": "makes 变 is making。"
+      },
+      {
+        "prompt": "把 now 改为 every day，并改写：He is washing his hands now.",
+        "answer": "He washes his hands every day.",
+        "why": "is washing 变 washes。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "改为一般疑问句：The boy walks to school every day.",
+        "answer": "Does the boy walk to school every day?",
+        "why": "does + walk。"
+      },
+      {
+        "prompt": "改为一般疑问句：The boy is walking to school now.",
+        "answer": "Is the boy walking to school now?",
+        "why": "is + 主语 + walking。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "填空：The boys ___ playing football now. (am / is / are)",
+        "answer": "are",
+        "why": "boys 配 are。",
+        "source": "Day 16 A2"
+      },
+      {
+        "prompt": "改为否定句：The boys skate every Sunday.",
+        "answer": "The boys don't skate every Sunday.",
+        "why": "复数主语，don't + 原形。",
+        "source": "Day 10 A6"
+      }
+    ]
+  },
+  {
+    "day": 18,
+    "title": "改单复数：整句一起检查",
+    "focus": "改单复数时，要检查指示词、主语、be、普通动词、名词和代词。this / that 对应 these / those；a / an 在复数句中去掉。can 后动词始终用原形。",
+    "example": "This is a small cat. → These are small cats.",
+    "main": [
+      {
+        "prompt": "改为复数句：This is a red apple.",
+        "answer": "These are red apples.",
+        "why": "this / is / a / apple 都要检查。"
+      },
+      {
+        "prompt": "改为复数句：That is an egg.",
+        "answer": "Those are eggs.",
+        "why": "that 变 those，去掉 an。"
+      },
+      {
+        "prompt": "改为单数句：These are books.",
+        "answer": "This is a book.",
+        "why": "these 变 this，补 a。"
+      },
+      {
+        "prompt": "改为单数句：Those are orange bags.",
+        "answer": "That is an orange bag.",
+        "why": "orange 以元音音素开头，用 an。"
+      },
+      {
+        "prompt": "用 They 改写：He has a kite.",
+        "answer": "They have a kite.",
+        "why": "只指定换主语，a kite 不必变复数。"
+      },
+      {
+        "prompt": "用 They 改写：She plays football.",
+        "answer": "They play football.",
+        "why": "plays 变 play。"
+      },
+      {
+        "prompt": "用 He 改写：They can ride bikes.",
+        "answer": "He can ride bikes.",
+        "why": "只换主语，can ride 不变。"
+      },
+      {
+        "prompt": "将 The child 改成 The children 并改写：The child is happy.",
+        "answer": "The children are happy.",
+        "why": "child 的复数是 children。"
+      },
+      {
+        "prompt": "将 The mouse 改成 The mice 并改写：The mouse has a long tail.",
+        "answer": "The mice have long tails.",
+        "why": "本题改成多只老鼠，have，尾巴用复数。"
+      },
+      {
+        "prompt": "改正错误：These is a books.",
+        "answer": "These are books.",
+        "why": "these 配 are，复数名词前去掉 a。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "改为复数句：This is a big box.",
+        "answer": "These are big boxes.",
+        "why": "box 复数加 es。"
+      },
+      {
+        "prompt": "用 She 改写：They go to school by bus.",
+        "answer": "She goes to school by bus.",
+        "why": "go 变 goes。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "改为一般疑问句：Lucy reads every day.",
+        "answer": "Does Lucy read every day?",
+        "why": "一般现在时用 does。",
+        "source": "Day 17 A5"
+      },
+      {
+        "prompt": "改正错误：My brother haves a football.",
+        "answer": "My brother has a football.",
+        "why": "have 的三单是 has。",
+        "source": "Day 11 A9"
+      }
+    ]
+  },
+  {
+    "day": 19,
+    "title": "祈使句：请做、别做",
+    "focus": "祈使句常省略主语 you，以动词原形开头；否定常用 Don’t + 动词原形。Be quiet. 的否定是 Don’t be quiet.；“保持安静”常说 Be quiet.，“别吵”常说 Don’t be noisy.",
+    "example": "Open the door. → Don’t open the door. / Be late. → Don’t be late.",
+    "main": [
+      {
+        "prompt": "选词：(Open / Opens) the book, please.",
+        "answer": "Open",
+        "why": "祈使句用原形。"
+      },
+      {
+        "prompt": "改为否定祈使句：Close the window.",
+        "answer": "Don't close the window.",
+        "why": "Don't + close。"
+      },
+      {
+        "prompt": "改为否定祈使句：Run in the classroom.",
+        "answer": "Don't run in the classroom.",
+        "why": "Don't + run。"
+      },
+      {
+        "prompt": "改为否定祈使句：Be late.",
+        "answer": "Don't be late.",
+        "why": "be 也要保留原形。"
+      },
+      {
+        "prompt": "改为肯定祈使句：Don't touch the box.",
+        "answer": "Touch the box.",
+        "why": "去掉 Don't，首字母大写。"
+      },
+      {
+        "prompt": "用所给词填空：Don't ___ here. (swim)",
+        "answer": "swim",
+        "why": "Don't 后用原形。"
+      },
+      {
+        "prompt": "连词成句：quiet / be / please / .",
+        "answer": "Please be quiet. / Be quiet, please.",
+        "why": "please 可在句首或句末。"
+      },
+      {
+        "prompt": "改正错误：Doesn't run here.",
+        "answer": "Don't run here.",
+        "why": "否定祈使句用 Don't。"
+      },
+      {
+        "prompt": "改正错误：Don't are late.",
+        "answer": "Don't be late.",
+        "why": "Don't 后用 be 原形。"
+      },
+      {
+        "prompt": "用祈使句表达“请坐下”。",
+        "answer": "Sit down, please. / Please sit down.",
+        "why": "Sit 用原形，please 表礼貌。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "改为否定祈使句：Eat in the library.",
+        "answer": "Don't eat in the library.",
+        "why": "Don't + eat。"
+      },
+      {
+        "prompt": "改正错误：Don't touches the flowers.",
+        "answer": "Don't touch the flowers.",
+        "why": "Don't 后不加 es。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "将 The child 改成 The children 并改写：The child is happy.",
+        "answer": "The children are happy.",
+        "why": "child 的复数是 children。",
+        "source": "Day 18 A8"
+      },
+      {
+        "prompt": "改为一般疑问句（用 Does）：Lucy has a bike.",
+        "answer": "Does Lucy have a bike?",
+        "why": "has 还原为 have。",
+        "source": "Day 12 A2"
+      }
+    ]
+  },
+  {
+    "day": 20,
+    "title": "let / Let’s：后面接谁，动作怎么写",
+    "focus": "Let’s = Let us，常表示“我们一起……吧”。Let + me / him / her / us / them + 动词原形。Let’s 的常用否定是 Let’s not + 原形；Don’t let him… 是“不让他……”。",
+    "example": "Let’s play. / Let him play. / Let’s not run here.",
+    "main": [
+      {
+        "prompt": "选词：Let's (play / plays) football.",
+        "answer": "play",
+        "why": "Let's 后用原形。"
+      },
+      {
+        "prompt": "选词：Let (he / him) open the door.",
+        "answer": "him",
+        "why": "let 后的人称代词用宾格。"
+      },
+      {
+        "prompt": "选词：Let (they / them) help us.",
+        "answer": "them",
+        "why": "let 后用 them。"
+      },
+      {
+        "prompt": "把 Let's 写成完整形式：Let's go home.",
+        "answer": "Let us go home.",
+        "why": "本题只展开缩写。"
+      },
+      {
+        "prompt": "改为常用否定形式：Let's swim here.",
+        "answer": "Let's not swim here.",
+        "why": "Let's not + 原形。"
+      },
+      {
+        "prompt": "改为否定祈使句：Let him open the box.",
+        "answer": "Don't let him open the box.",
+        "why": "Don't let + 宾语 + 原形。"
+      },
+      {
+        "prompt": "改正错误：Let her goes first.",
+        "answer": "Let her go first.",
+        "why": "her 后用 go 原形。"
+      },
+      {
+        "prompt": "改正错误：Lets play a game.",
+        "answer": "Let's play a game.",
+        "why": "建议一起做事，Let's 有撇号。"
+      },
+      {
+        "prompt": "用 Let's 表达“我们一起做蛋糕吧”。",
+        "answer": "Let's make a cake.",
+        "why": "Let's 后用 make。"
+      },
+      {
+        "prompt": "用 Let 表达“让我帮你”。",
+        "answer": "Let me help you.",
+        "why": "me 是宾格，help 用原形。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "改为常用否定形式：Let's eat here.",
+        "answer": "Let's not eat here.",
+        "why": "Let's not + eat。"
+      },
+      {
+        "prompt": "改正错误：Let she read the book.",
+        "answer": "Let her read the book.",
+        "why": "let 后用宾格 her。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "选词：(Open / Opens) the book, please.",
+        "answer": "Open",
+        "why": "祈使句用原形。",
+        "source": "Day 19 A1"
+      },
+      {
+        "prompt": "作肯定简短回答：Has Ben got a ball?",
+        "answer": "Yes, he has.",
+        "why": "has 问，has 答，简答不必写 got。",
+        "source": "Day 13 A5"
+      }
+    ]
+  },
+  {
+    "day": 21,
+    "title": "what / where：先确定是在问什么",
+    "focus": "画线内容是物或所做的事，常用 what；是地点，用 where。先选疑问词，再按原句结构组织问句。目标内容要从问句里拿掉。",
+    "example": "Tom is in the park. → Where is Tom? / Tom likes apples. → What does Tom like?",
+    "main": [
+      {
+        "prompt": "只写疑问词：The bag is **under the desk**.",
+        "answer": "Where",
+        "why": "问地点。"
+      },
+      {
+        "prompt": "只写疑问词：Lucy likes **apples**.",
+        "answer": "What",
+        "why": "问喜欢什么。"
+      },
+      {
+        "prompt": "对画线部分提问：The cat is **in the box**.",
+        "answer": "Where is the cat?",
+        "why": "Where + is + 主语。"
+      },
+      {
+        "prompt": "对画线部分提问：The boys are **in the library**.",
+        "answer": "Where are the boys?",
+        "why": "复数主语配 are。"
+      },
+      {
+        "prompt": "对画线部分提问：Tom likes **milk**.",
+        "answer": "What does Tom like?",
+        "why": "What + does，likes 还原。"
+      },
+      {
+        "prompt": "对画线部分提问：They play football **in the park**.",
+        "answer": "Where do they play football?",
+        "why": "普通动词、复数主语用 do。"
+      },
+      {
+        "prompt": "对画线部分提问：Lucy reads books **at home**.",
+        "answer": "Where does Lucy read books?",
+        "why": "does 后用 read。"
+      },
+      {
+        "prompt": "对画线部分提问：Ben can draw **a dog**.",
+        "answer": "What can Ben draw?",
+        "why": "What + can + 主语 + draw。"
+      },
+      {
+        "prompt": "改正错误：Where does Lucy reads books?",
+        "answer": "Where does Lucy read books?",
+        "why": "does 后用原形。"
+      },
+      {
+        "prompt": "改正错误，使它只问猫在哪里：Where is the cat in the box?",
+        "answer": "Where is the cat?",
+        "why": "地点已被 where 代替。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "对画线部分提问：The dog is **under the tree**.",
+        "answer": "Where is the dog?",
+        "why": "地点用 Where，is 提前。"
+      },
+      {
+        "prompt": "对画线部分提问：Lily eats **rice** for lunch.",
+        "answer": "What does Lily eat for lunch?",
+        "why": "does 后用 eat。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "把 Let's 写成完整形式：Let's go home.",
+        "answer": "Let us go home.",
+        "why": "本题只展开缩写。",
+        "source": "Day 20 A4"
+      },
+      {
+        "prompt": "作肯定简短回答：Are there any books on the desk?",
+        "answer": "Yes, there are.",
+        "why": "there be 的简答保留 there。",
+        "source": "Day 14 A8"
+      }
+    ]
+  },
+  {
+    "day": 22,
+    "title": "who / whose：谁，还是谁的",
+    "focus": "who 问人；whose 问归属。“谁的书”可用 Whose book。Tom’s 表示“汤姆的”；his / her 是“他的 / 她的”。问物品主人时，别误用 who。",
+    "example": "She is Lucy. → Who is she? / This is Tom’s bag. → Whose bag is this?",
+    "main": [
+      {
+        "prompt": "选疑问词：(Who / Whose) is that boy? He is Ben.",
+        "answer": "Who",
+        "why": "问那个人是谁。"
+      },
+      {
+        "prompt": "选疑问词：(Who / Whose) bag is this? It is Lucy's.",
+        "answer": "Whose",
+        "why": "问包属于谁。"
+      },
+      {
+        "prompt": "对画线部分提问：She is **Lucy**.",
+        "answer": "Who is she?",
+        "why": "问身份，用 Who。"
+      },
+      {
+        "prompt": "对画线部分提问，保留 bag：This is **Tom's** bag.",
+        "answer": "Whose bag is this?",
+        "why": "Whose + bag，is this。"
+      },
+      {
+        "prompt": "对画线部分提问，保留 books：These are **Ben's** books.",
+        "answer": "Whose books are these?",
+        "why": "books 是复数，配 are。"
+      },
+      {
+        "prompt": "对画线部分提问，保留 pen：That is **her** pen.",
+        "answer": "Whose pen is that?",
+        "why": "her 表示归属。"
+      },
+      {
+        "prompt": "选择符合问题的回答：Whose ruler is it? (It's red. / It's Lily's.)",
+        "answer": "It's Lily's.",
+        "why": "whose 要回答主人。"
+      },
+      {
+        "prompt": "选择符合问题的回答：Who is he? (He's Tom. / It's Tom's.)",
+        "answer": "He's Tom.",
+        "why": "who 要回答人是谁。"
+      },
+      {
+        "prompt": "改正错误：Who's bag is this?",
+        "answer": "Whose bag is this?",
+        "why": "who's = who is，不是 whose。"
+      },
+      {
+        "prompt": "连词成句：these / whose / are / shoes / ?",
+        "answer": "Whose shoes are these?",
+        "why": "Whose + 名词 + are + these。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "对画线部分提问，保留 coat：This is **Mary's** coat.",
+        "answer": "Whose coat is this?",
+        "why": "询问归属。"
+      },
+      {
+        "prompt": "对画线部分提问：He is **Mr Li**.",
+        "answer": "Who is he?",
+        "why": "询问身份。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "对画线部分提问：Lucy reads books **at home**.",
+        "answer": "Where does Lucy read books?",
+        "why": "does 后用 read。",
+        "source": "Day 21 A7"
+      },
+      {
+        "prompt": "填空：My sister ___ a new bike. (have / has)",
+        "answer": "has",
+        "why": "单数主语配 has。",
+        "source": "Day 15 A1"
+      }
+    ]
+  },
+  {
+    "day": 23,
+    "title": "when / what time / what day / what date",
+    "focus": "when 问时间，范围较广；what time 常问几点；what day 问星期几；what date 问日期。题目指定用哪个时，就按指定问法写。",
+    "example": "It is Monday. → What day is it? / It is 22 October. → What date is it?",
+    "main": [
+      {
+        "prompt": "只写疑问词组，问几点：It is **seven o'clock**.",
+        "answer": "What time",
+        "why": "问钟点。"
+      },
+      {
+        "prompt": "只写疑问词组，问星期：It is **Tuesday**.",
+        "answer": "What day",
+        "why": "问星期几。"
+      },
+      {
+        "prompt": "只写疑问词组，问日期：It is **1 June**.",
+        "answer": "What date",
+        "why": "问日期。"
+      },
+      {
+        "prompt": "对画线部分提问，用 What time：Tom gets up **at six**.",
+        "answer": "What time does Tom get up?",
+        "why": "does 后 get 用原形，去掉 at six。"
+      },
+      {
+        "prompt": "对画线部分提问，用 When：They play football **on Sunday**.",
+        "answer": "When do they play football?",
+        "why": "When + do + 主语。"
+      },
+      {
+        "prompt": "对画线部分提问：It is **Friday**.",
+        "answer": "What day is it?",
+        "why": "星期用 What day。"
+      },
+      {
+        "prompt": "对画线部分提问：It is **10 September**.",
+        "answer": "What date is it?",
+        "why": "日期用 What date。"
+      },
+      {
+        "prompt": "对画线部分提问：It is **eight o'clock**.",
+        "answer": "What time is it?",
+        "why": "问现在几点。"
+      },
+      {
+        "prompt": "改正错误：What time does Lucy goes to school?",
+        "answer": "What time does Lucy go to school?",
+        "why": "does 后用 go。"
+      },
+      {
+        "prompt": "对画线部分提问，用 When：Ben has a music lesson **on Tuesday**.",
+        "answer": "When does Ben have a music lesson?",
+        "why": "has 还原为 have。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "对画线部分提问，用 What time：Lucy goes to bed **at nine**.",
+        "answer": "What time does Lucy go to bed?",
+        "why": "does + go。"
+      },
+      {
+        "prompt": "对画线部分提问：It is **Wednesday**.",
+        "answer": "What day is it?",
+        "why": "问星期。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "连词成句：these / whose / are / shoes / ?",
+        "answer": "Whose shoes are these?",
+        "why": "Whose + 名词 + are + these。",
+        "source": "Day 22 A10"
+      },
+      {
+        "prompt": "写出 ing 形式：run",
+        "answer": "running",
+        "why": "双写 n 再加 ing。",
+        "source": "Day 16 A4"
+      }
+    ]
+  },
+  {
+    "day": 24,
+    "title": "how / how old / how many",
+    "focus": "how 可以问状态或方式；how old 问年龄；how many + 可数名词复数，问数量。how many 不是单独放句首就结束，常要带上所数的东西。",
+    "example": "She is ten. → How old is she? / There are three cats. → How many cats are there?",
+    "main": [
+      {
+        "prompt": "选词：___ is your mother? She is fine. (How / How old)",
+        "answer": "How",
+        "why": "fine 回答状态。"
+      },
+      {
+        "prompt": "选词：___ is Ben? He is nine. (How / How old)",
+        "answer": "How old",
+        "why": "nine 在此回答年龄。"
+      },
+      {
+        "prompt": "对画线部分提问：Lucy is **ten years old**.",
+        "answer": "How old is Lucy?",
+        "why": "去掉整个年龄信息。"
+      },
+      {
+        "prompt": "对画线部分提问：The children are **fine**.",
+        "answer": "How are the children?",
+        "why": "how 问状态。"
+      },
+      {
+        "prompt": "对画线部分提问：There are **four** books on the desk.",
+        "answer": "How many books are there on the desk?",
+        "why": "How many + books + are there。"
+      },
+      {
+        "prompt": "对画线部分提问：Tom has **two** sisters.",
+        "answer": "How many sisters does Tom have?",
+        "why": "has 还原为 have。"
+      },
+      {
+        "prompt": "对画线部分提问：They have **three** balls.",
+        "answer": "How many balls do they have?",
+        "why": "balls 用复数。"
+      },
+      {
+        "prompt": "改正错误：How many book does Lucy have?",
+        "answer": "How many books does Lucy have?",
+        "why": "how many 后名词用复数。"
+      },
+      {
+        "prompt": "连词成句：old / your / is / how / brother / ?",
+        "answer": "How old is your brother?",
+        "why": "How old + is + 主语。"
+      },
+      {
+        "prompt": "选择符合问题的回答：How many dogs are there? (They are brown. / There are two.)",
+        "answer": "There are two.",
+        "why": "要回答数量。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "对画线部分提问：There are **five** girls in the room.",
+        "answer": "How many girls are there in the room?",
+        "why": "问数量而不是人是谁。"
+      },
+      {
+        "prompt": "对画线部分提问：Lucy's sister is **eight**.",
+        "answer": "How old is Lucy's sister?",
+        "why": "整个主语保留，问年龄。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "只写疑问词组，问日期：It is **1 June**.",
+        "answer": "What date",
+        "why": "问日期。",
+        "source": "Day 23 A3"
+      },
+      {
+        "prompt": "改为否定句：Ben swims every Saturday.",
+        "answer": "Ben doesn't swim every Saturday.",
+        "why": "doesn't 后用 swim。",
+        "source": "Day 17 A7"
+      }
+    ]
+  },
+  {
+    "day": 25,
+    "title": "how much：多少，还是多少钱",
+    "focus": "how much + 不可数名词可以问量；How much is / are…? 可以问价格。how many 后接可数名词复数。钱的多少与物品的数量要分清。",
+    "example": "How much milk is there? / How much are the shoes? / How many shoes are there?",
+    "main": [
+      {
+        "prompt": "填 many / much：How ___ water is there?",
+        "answer": "much",
+        "why": "water 是不可数名词。"
+      },
+      {
+        "prompt": "填 many / much：How ___ apples are there?",
+        "answer": "many",
+        "why": "apples 可数复数。"
+      },
+      {
+        "prompt": "填 many / much：How ___ rice does Tom have?",
+        "answer": "much",
+        "why": "rice 不可数。"
+      },
+      {
+        "prompt": "对画线部分提问：The bag is **fifty yuan**.",
+        "answer": "How much is the bag?",
+        "why": "问价格，单数物品配 is。"
+      },
+      {
+        "prompt": "对画线部分提问：The shoes are **eighty yuan**.",
+        "answer": "How much are the shoes?",
+        "why": "shoes 复数配 are。"
+      },
+      {
+        "prompt": "对画线部分提问：Lucy has **some** milk.",
+        "answer": "How much milk does Lucy have?",
+        "why": "问牛奶的量，用 How much milk。"
+      },
+      {
+        "prompt": "对画线部分提问：There is **some** juice in the bottle.",
+        "answer": "How much juice is there in the bottle?",
+        "why": "问不可数名词的量。"
+      },
+      {
+        "prompt": "对画线部分提问：There are **six** eggs in the box.",
+        "answer": "How many eggs are there in the box?",
+        "why": "eggs 可数，用 How many。"
+      },
+      {
+        "prompt": "改正错误：How many is this book?（问价格）",
+        "answer": "How much is this book?",
+        "why": "问价格用 How much。"
+      },
+      {
+        "prompt": "改正错误：How much bananas does Ben have?",
+        "answer": "How many bananas does Ben have?",
+        "why": "bananas 可数复数。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "对画线部分提问：The toy car is **thirty yuan**.",
+        "answer": "How much is the toy car?",
+        "why": "问单个物品价格。"
+      },
+      {
+        "prompt": "填 many / much：How ___ bread is there?",
+        "answer": "much",
+        "why": "bread 不可数。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "对画线部分提问：Tom has **two** sisters.",
+        "answer": "How many sisters does Tom have?",
+        "why": "has 还原为 have。",
+        "source": "Day 24 A6"
+      },
+      {
+        "prompt": "改正错误：These is a books.",
+        "answer": "These are books.",
+        "why": "these 配 are，复数名词前去掉 a。",
+        "source": "Day 18 A10"
+      }
+    ]
+  },
+  {
+    "day": 26,
+    "title": "which 和 what 的各种搭配",
+    "focus": "which 常在给定范围里选“哪一个”；what 常问“什么”。what colour / size / subject / kind of… 分别问颜色、尺码、学科、种类。固定词组要整体理解。",
+    "example": "The red bag or the blue bag? → Which bag…? / The bag is red. → What colour…?",
+    "main": [
+      {
+        "prompt": "选词：___ bag do you like, the red one or the blue one? (Which / Where)",
+        "answer": "Which",
+        "why": "在两个包中选择。"
+      },
+      {
+        "prompt": "对画线部分提问：The kite is **yellow**.",
+        "answer": "What colour is the kite?",
+        "why": "问颜色。"
+      },
+      {
+        "prompt": "对画线部分提问：The shoes are **black**.",
+        "answer": "What colour are the shoes?",
+        "why": "shoes 是复数。"
+      },
+      {
+        "prompt": "对画线部分提问，用 What subject：Lucy likes **English**.",
+        "answer": "What subject does Lucy like?",
+        "why": "subject 问学科，does + like。"
+      },
+      {
+        "prompt": "对画线部分提问：Ben wears **size 32** shoes.",
+        "answer": "What size shoes does Ben wear?",
+        "why": "问鞋的尺码，wear 用原形。"
+      },
+      {
+        "prompt": "对画线部分提问，用 Which bag：Tom likes **the blue bag**, not the red one.",
+        "answer": "Which bag does Tom like?",
+        "why": "有给定的选择范围。"
+      },
+      {
+        "prompt": "填空：What ___ animals does Lucy like? She likes cats.（问种类）",
+        "answer": "kind of",
+        "why": "What kind of animals 问动物种类。"
+      },
+      {
+        "prompt": "用 What about 提建议：“喝些果汁怎么样？”",
+        "answer": "What about some juice?",
+        "why": "What about + 名词短语。"
+      },
+      {
+        "prompt": "选词：What about (play / playing) football?",
+        "answer": "playing",
+        "why": "about 后接动词 ing。"
+      },
+      {
+        "prompt": "改正错误：What colour does the bag is?",
+        "answer": "What colour is the bag?",
+        "why": "原句结构是 bag is，不能加 does。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "对画线部分提问：The flowers are **pink**.",
+        "answer": "What colour are the flowers?",
+        "why": "问颜色，用 are。"
+      },
+      {
+        "prompt": "用 How about 改写同义句：What about playing a game?",
+        "answer": "How about playing a game?",
+        "why": "How about 后也接动词 ing。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "改正错误：How many is this book?（问价格）",
+        "answer": "How much is this book?",
+        "why": "问价格用 How much。",
+        "source": "Day 25 A9"
+      },
+      {
+        "prompt": "改为否定祈使句：Run in the classroom.",
+        "answer": "Don't run in the classroom.",
+        "why": "Don't + run。",
+        "source": "Day 19 A3"
+      }
+    ]
+  },
+  {
+    "day": 27,
+    "title": "why / how：原因、方式与天气",
+    "focus": "why 问原因，常用 because 回答；how 问方式，可以用 by bus / on foot 等回答。How is the weather? 与 What is the weather like? 都可以问天气。",
+    "example": "He walks to school. → How does he go to school? / He is happy because… → Why is he happy?",
+    "main": [
+      {
+        "prompt": "选词：___ is Lucy happy? Because it is her birthday. (Why / Where)",
+        "answer": "Why",
+        "why": "because 回答原因。"
+      },
+      {
+        "prompt": "选词：___ does Tom go to school? By bus. (How / How old)",
+        "answer": "How",
+        "why": "问出行方式。"
+      },
+      {
+        "prompt": "对画线部分提问：Ben goes to school **by bike**.",
+        "answer": "How does Ben go to school?",
+        "why": "问方式，does + go。"
+      },
+      {
+        "prompt": "对画线部分提问：The children go to the park **on foot**.",
+        "answer": "How do the children go to the park?",
+        "why": "复数主语用 do。"
+      },
+      {
+        "prompt": "对画线部分提问：Lucy is sad **because her cat is ill**.",
+        "answer": "Why is Lucy sad?",
+        "why": "why 代替整个原因部分。"
+      },
+      {
+        "prompt": "对画线部分提问：Tom likes winter **because he can make a snowman**.",
+        "answer": "Why does Tom like winter?",
+        "why": "why + does，likes 还原。"
+      },
+      {
+        "prompt": "按天气提问，用 How：It is **sunny** today.",
+        "answer": "How is the weather today?",
+        "why": "问天气状态。"
+      },
+      {
+        "prompt": "改写同义问句，用 What：How is the weather today?",
+        "answer": "What is the weather like today?",
+        "why": "What…like 是完整天气问法。"
+      },
+      {
+        "prompt": "改正错误：Why does Ben likes summer?",
+        "answer": "Why does Ben like summer?",
+        "why": "does 后用原形。"
+      },
+      {
+        "prompt": "选择符合问题的回答：Why are you tired? (By bus. / Because I run a lot.)",
+        "answer": "Because I run a lot.",
+        "why": "why 要回答原因。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "对画线部分提问：Lily goes to the library **by bus**.",
+        "answer": "How does Lily go to the library?",
+        "why": "方式用 How。"
+      },
+      {
+        "prompt": "对画线部分提问：The boy is happy **because he has a new bike**.",
+        "answer": "Why is the boy happy?",
+        "why": "原句有 is，直接用 is 组问句。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "对画线部分提问：The kite is **yellow**.",
+        "answer": "What colour is the kite?",
+        "why": "问颜色。",
+        "source": "Day 26 A2"
+      },
+      {
+        "prompt": "改为否定祈使句：Let him open the box.",
+        "answer": "Don't let him open the box.",
+        "why": "Don't let + 宾语 + 原形。",
+        "source": "Day 20 A6"
+      }
+    ]
+  },
+  {
+    "day": 28,
+    "title": "how long / far / often / soon：分清量的种类",
+    "focus": "how long 问长度或持续多久；how far 问距离；how often 问频率；how soon 问还要多久，常用 in + 时间回答。how tall / heavy 问身高 / 体重。本页后两题为拓展识别。",
+    "example": "two hours → How long；two kilometres → How far；twice a week → How often；in two days → How soon。",
+    "main": [
+      {
+        "prompt": "选择词组（How long / How far）：___ is the ruler? It is twenty centimetres long.",
+        "answer": "How long",
+        "why": "问物体长度。"
+      },
+      {
+        "prompt": "选择词组（How long / How far）：___ is it from Ben's home to school? It is two kilometres.",
+        "answer": "How far",
+        "why": "问两地距离。"
+      },
+      {
+        "prompt": "选择词组（How often / How soon）：___ does Lucy swim? Twice a week.",
+        "answer": "How often",
+        "why": "问频率。"
+      },
+      {
+        "prompt": "选择词组（How often / How soon）：___ will Dad come back? In two days.",
+        "answer": "How soon",
+        "why": "问从现在起还要多久。"
+      },
+      {
+        "prompt": "对画线部分提问，用 How long：Tom reads **for twenty minutes** every day.",
+        "answer": "How long does Tom read every day?",
+        "why": "问持续时长，does + read。"
+      },
+      {
+        "prompt": "对画线部分提问：Lucy plays tennis **twice a week**.",
+        "answer": "How often does Lucy play tennis?",
+        "why": "问频率。"
+      },
+      {
+        "prompt": "对画线部分提问，用 How far：It is **three kilometres** from the park to the school.",
+        "answer": "How far is it from the park to the school?",
+        "why": "问距离。"
+      },
+      {
+        "prompt": "对画线部分提问，用 How long：The ruler is **thirty centimetres long**.",
+        "answer": "How long is the ruler?",
+        "why": "问长度。"
+      },
+      {
+        "prompt": "拓展选词（How tall / How heavy）：___ is Ben? He is 140 centimetres tall.",
+        "answer": "How tall",
+        "why": "问身高。"
+      },
+      {
+        "prompt": "拓展选词（How tall / How heavy）：___ is the box? It is five kilograms.",
+        "answer": "How heavy",
+        "why": "问重量。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "对画线部分提问：Ben visits his grandma **once a week**.",
+        "answer": "How often does Ben visit his grandma?",
+        "why": "频率用 How often。"
+      },
+      {
+        "prompt": "选择词组（How far / How soon）：___ will the bus come? In five minutes.",
+        "answer": "How soon",
+        "why": "从现在起还要五分钟；只要求选词组。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "对画线部分提问：Lucy is sad **because her cat is ill**.",
+        "answer": "Why is Lucy sad?",
+        "why": "why 代替整个原因部分。",
+        "source": "Day 27 A5"
+      },
+      {
+        "prompt": "改正错误：Where does Lucy reads books?",
+        "answer": "Where does Lucy read books?",
+        "why": "does 后用原形。",
+        "source": "Day 21 A9"
+      }
+    ]
+  },
+  {
+    "day": 29,
+    "title": "who 问主语，和 who 问宾语",
+    "focus": "问“谁做这件事”，who 自己当主语，通常不额外加 do / does；问“某人帮助谁、喜欢谁”，原主语保留，常要用 do / does。whose 仍然问归属。",
+    "example": "Lucy helps Tom. → Who helps Tom? / Who does Lucy help?",
+    "main": [
+      {
+        "prompt": "对画线部分提问：**Lucy** likes apples.",
+        "answer": "Who likes apples?",
+        "why": "谁喜欢？who 代替主语，likes 保留。"
+      },
+      {
+        "prompt": "对画线部分提问：**Ben** plays football every day.",
+        "answer": "Who plays football every day?",
+        "why": "who 作主语。"
+      },
+      {
+        "prompt": "对画线部分提问：**Tom** can swim.",
+        "answer": "Who can swim?",
+        "why": "who 代替 Tom，保留 can。"
+      },
+      {
+        "prompt": "对画线部分提问：**Lucy** is reading.",
+        "answer": "Who is reading?",
+        "why": "who 代替主语。"
+      },
+      {
+        "prompt": "对画线部分提问：Lucy helps **Tom**.",
+        "answer": "Who does Lucy help? / Whom does Lucy help?",
+        "why": "Lucy 仍是主语；口语常用 who，正式也可 whom。"
+      },
+      {
+        "prompt": "对画线部分提问：Tom likes **Miss Li**.",
+        "answer": "Who does Tom like? / Whom does Tom like?",
+        "why": "likes 还原为 like。"
+      },
+      {
+        "prompt": "对画线部分提问：**Ben** has a red bike.",
+        "answer": "Who has a red bike?",
+        "why": "who 作主语，保留 has。"
+      },
+      {
+        "prompt": "对画线部分提问，保留 bike：This is **Ben's** bike.",
+        "answer": "Whose bike is this?",
+        "why": "问归属用 whose。"
+      },
+      {
+        "prompt": "改正错误，表达“谁喜欢牛奶？”：Who does likes milk?",
+        "answer": "Who likes milk?",
+        "why": "who 本身是主语。"
+      },
+      {
+        "prompt": "只写中文区别：Who helps Ben? / Who does Ben help?",
+        "answer": "谁帮助本？ / 本帮助谁？",
+        "why": "前一句问帮助者，后一句问被帮助者。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "对画线部分提问：**Lily** reads books every day.",
+        "answer": "Who reads books every day?",
+        "why": "who 代替主语。"
+      },
+      {
+        "prompt": "对画线部分提问：Ben helps **Lily**.",
+        "answer": "Who does Ben help? / Whom does Ben help?",
+        "why": "Ben 是保留的主语。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "对画线部分提问，用 How long：The ruler is **thirty centimetres long**.",
+        "answer": "How long is the ruler?",
+        "why": "问长度。",
+        "source": "Day 28 A8"
+      },
+      {
+        "prompt": "选疑问词：(Who / Whose) bag is this? It is Lucy's.",
+        "answer": "Whose",
+        "why": "问包属于谁。",
+        "source": "Day 22 A2"
+      }
+    ]
+  },
+  {
+    "day": 30,
+    "title": "小复习四：疑问词与结构一起选",
+    "focus": "独立完成。不提供规则或例题；画线部分就是要问的信息。",
+    "example": "",
+    "main": [
+      {
+        "prompt": "对画线部分提问：The dog is **under the chair**.",
+        "answer": "Where is the dog?",
+        "why": "地点用 Where，be 结构用 is。"
+      },
+      {
+        "prompt": "对画线部分提问，保留 coat：This is **Lucy's** coat.",
+        "answer": "Whose coat is this?",
+        "why": "问归属。"
+      },
+      {
+        "prompt": "对画线部分提问：Tom likes **bananas**.",
+        "answer": "What does Tom like?",
+        "why": "问喜欢什么，does + like。"
+      },
+      {
+        "prompt": "对画线部分提问：Ben is **eleven**.",
+        "answer": "How old is Ben?",
+        "why": "问年龄。"
+      },
+      {
+        "prompt": "对画线部分提问：There are **seven** books on the desk.",
+        "answer": "How many books are there on the desk?",
+        "why": "问数量，books 用复数。"
+      },
+      {
+        "prompt": "对画线部分提问：The dress is **sixty yuan**.",
+        "answer": "How much is the dress?",
+        "why": "问价格。"
+      },
+      {
+        "prompt": "对画线部分提问，用 What time：Lucy gets up **at seven**.",
+        "answer": "What time does Lucy get up?",
+        "why": "问钟点，gets 还原。"
+      },
+      {
+        "prompt": "对画线部分提问：Tom walks to school **because his home is near the school**.",
+        "answer": "Why does Tom walk to school?",
+        "why": "问原因，walks 还原。"
+      },
+      {
+        "prompt": "对画线部分提问：**Ben** has a pet.",
+        "answer": "Who has a pet?",
+        "why": "who 作主语不加 does。"
+      },
+      {
+        "prompt": "对画线部分提问：Lily reads books **every day**.",
+        "answer": "How often does Lily read books?",
+        "why": "问频率；When does Lily read books? 也可表达时间询问，但本页优先频率问法。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "对画线部分提问：The shoes are **white**.",
+        "answer": "What colour are the shoes?",
+        "why": "问颜色。"
+      },
+      {
+        "prompt": "对画线部分提问：Lucy goes to the park **by bus**.",
+        "answer": "How does Lucy go to the park?",
+        "why": "问方式。"
+      }
+    ],
+    "checkpoint": true,
+    "review": [
+      {
+        "prompt": "对画线部分提问：**Lucy** likes apples.",
+        "answer": "Who likes apples?",
+        "why": "谁喜欢？who 代替主语，likes 保留。",
+        "source": "Day 29 A1"
+      },
+      {
+        "prompt": "对画线部分提问，用 When：They play football **on Sunday**.",
+        "answer": "When do they play football?",
+        "why": "When + do + 主语。",
+        "source": "Day 23 A5"
+      }
+    ]
+  },
+  {
+    "day": 31,
+    "title": "What 感叹句：一个人或物",
+    "focus": "感叹句表达“多么……啊”，不是在提问。单数可数名词常用 What a / an + 形容词 + 名词 + 主语 + be!；a / an 看后面紧跟词的开头音。",
+    "example": "It is a nice day. → What a nice day it is!",
+    "main": [
+      {
+        "prompt": "填 a / an：What ___ nice book it is!",
+        "answer": "a",
+        "why": "nice 以辅音音素开头。"
+      },
+      {
+        "prompt": "填 a / an：What ___ interesting book it is!",
+        "answer": "an",
+        "why": "interesting 以元音音素开头。"
+      },
+      {
+        "prompt": "填 a / an：What ___ useful book it is!",
+        "answer": "a",
+        "why": "useful 开头是 /j/，是辅音音素。"
+      },
+      {
+        "prompt": "用 What 改为完整感叹句：It is a big dog.",
+        "answer": "What a big dog it is!",
+        "why": "What a + big dog + it is。"
+      },
+      {
+        "prompt": "用 What 改为完整感叹句：It is an old bike.",
+        "answer": "What an old bike it is!",
+        "why": "old 前用 an。"
+      },
+      {
+        "prompt": "用 What 改为完整感叹句：She is a kind girl.",
+        "answer": "What a kind girl she is!",
+        "why": "保留 she is 的陈述语序。"
+      },
+      {
+        "prompt": "用 What 改为完整感叹句：He is a tall boy.",
+        "answer": "What a tall boy he is!",
+        "why": "What 后接名词短语。"
+      },
+      {
+        "prompt": "连词成句：a / what / day / lovely / it / is / !",
+        "answer": "What a lovely day it is!",
+        "why": "名词短语提前，it is 不倒装。"
+      },
+      {
+        "prompt": "改正错误：What a nice bag is it!",
+        "answer": "What a nice bag it is!",
+        "why": "本套练标准陈述语序。"
+      },
+      {
+        "prompt": "在句末填 ? 或 !：What a beautiful flower it is___",
+        "answer": "!",
+        "why": "表达感叹，不是提问。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "用 What 改为完整感叹句：It is a small cat.",
+        "answer": "What a small cat it is!",
+        "why": "单数 cat 前保留 a。"
+      },
+      {
+        "prompt": "用 What 改为完整感叹句：It is an interesting story.",
+        "answer": "What an interesting story it is!",
+        "why": "interesting 前用 an。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "对画线部分提问：Ben is **eleven**.",
+        "answer": "How old is Ben?",
+        "why": "问年龄。",
+        "source": "Day 30 A4"
+      },
+      {
+        "prompt": "改正错误：How many book does Lucy have?",
+        "answer": "How many books does Lucy have?",
+        "why": "how many 后名词用复数。",
+        "source": "Day 24 A8"
+      }
+    ]
+  },
+  {
+    "day": 32,
+    "title": "What 感叹句：复数和不可数名词",
+    "focus": "复数可数名词、不可数名词的 What 感叹句不加 a / an。What + 形容词 + 复数名词 / 不可数名词 + 主语 + 动词! 仍保持陈述语序。",
+    "example": "They are nice flowers. → What nice flowers they are! / It is good news. → What good news it is!",
+    "main": [
+      {
+        "prompt": "选词：What (a / 不填) beautiful flowers they are!",
+        "answer": "不填",
+        "why": "flowers 是复数。"
+      },
+      {
+        "prompt": "选词：What (a / 不填) nice weather it is!",
+        "answer": "不填",
+        "why": "weather 不可数。"
+      },
+      {
+        "prompt": "用 What 改为完整感叹句：They are lovely cats.",
+        "answer": "What lovely cats they are!",
+        "why": "复数 cats 前无 a。"
+      },
+      {
+        "prompt": "用 What 改为完整感叹句：They are big boxes.",
+        "answer": "What big boxes they are!",
+        "why": "boxes 用复数。"
+      },
+      {
+        "prompt": "用 What 改为完整感叹句：It is clean water.",
+        "answer": "What clean water it is!",
+        "why": "water 不可数，无 a。"
+      },
+      {
+        "prompt": "用 What 改为完整感叹句：It is good news.",
+        "answer": "What good news it is!",
+        "why": "news 不可数，不能加 a。"
+      },
+      {
+        "prompt": "用 What 改为完整感叹句：It is nice weather.",
+        "answer": "What nice weather it is!",
+        "why": "weather 不可数。"
+      },
+      {
+        "prompt": "改正错误：What a beautiful birds they are!",
+        "answer": "What beautiful birds they are!",
+        "why": "birds 是复数，去掉 a。"
+      },
+      {
+        "prompt": "改正错误：What an interesting books they are!",
+        "answer": "What interesting books they are!",
+        "why": "books 是复数，去掉 an。"
+      },
+      {
+        "prompt": "连词成句：what / children / happy / they / are / !",
+        "answer": "What happy children they are!",
+        "why": "children 是复数，无 a。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "用 What 改为完整感叹句：They are small ducks.",
+        "answer": "What small ducks they are!",
+        "why": "复数不用 a。"
+      },
+      {
+        "prompt": "用 What 改为完整感叹句：It is sweet milk.",
+        "answer": "What sweet milk it is!",
+        "why": "milk 不可数。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "用 What 改为完整感叹句：He is a tall boy.",
+        "answer": "What a tall boy he is!",
+        "why": "What 后接名词短语。",
+        "source": "Day 31 A7"
+      },
+      {
+        "prompt": "填 many / much：How ___ water is there?",
+        "answer": "much",
+        "why": "water 是不可数名词。",
+        "source": "Day 25 A1"
+      }
+    ]
+  },
+  {
+    "day": 33,
+    "title": "How 感叹句：形容词和副词",
+    "focus": "How + 形容词 / 副词 + 主语 + 动词!；How 后面可以接 beautiful、fast、well 等。不要因为中文都是“多么”就把 What 和 How 混用。",
+    "example": "The girl is happy. → How happy the girl is! / Tom runs fast. → How fast Tom runs!",
+    "main": [
+      {
+        "prompt": "选词：(How / What) tall Ben is!",
+        "answer": "How",
+        "why": "tall 是形容词，后面直接接主语 Ben。"
+      },
+      {
+        "prompt": "选词：(How / What) a tall boy Ben is!",
+        "answer": "What",
+        "why": "a tall boy 是名词短语。"
+      },
+      {
+        "prompt": "用 How 改为完整感叹句：The cat is cute.",
+        "answer": "How cute the cat is!",
+        "why": "How + cute + the cat is。"
+      },
+      {
+        "prompt": "用 How 改为完整感叹句：The flowers are beautiful.",
+        "answer": "How beautiful the flowers are!",
+        "why": "主语 flowers 为复数。"
+      },
+      {
+        "prompt": "用 How 改为完整感叹句：Lucy is kind.",
+        "answer": "How kind Lucy is!",
+        "why": "How 后不加 a。"
+      },
+      {
+        "prompt": "用 How 改为完整感叹句：Tom runs fast.",
+        "answer": "How fast Tom runs!",
+        "why": "fast 修饰 runs，保留三单。"
+      },
+      {
+        "prompt": "用 How 改为完整感叹句：Ben swims well.",
+        "answer": "How well Ben swims!",
+        "why": "well 修饰动作。"
+      },
+      {
+        "prompt": "用 How 改为完整感叹句：The children sing beautifully.",
+        "answer": "How beautifully the children sing!",
+        "why": "beautifully 修饰 sing。"
+      },
+      {
+        "prompt": "改正错误：How beautiful are the flowers!",
+        "answer": "How beautiful the flowers are!",
+        "why": "本套练陈述语序。"
+      },
+      {
+        "prompt": "改正错误：How a nice book it is!",
+        "answer": "What a nice book it is! / How nice the book is!",
+        "why": "选完整的一套，不能混搭。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "用 How 改为完整感叹句：The boy is clever.",
+        "answer": "How clever the boy is!",
+        "why": "How + 形容词 + 主语 + be。"
+      },
+      {
+        "prompt": "用 How 改为完整感叹句：Lily dances well.",
+        "answer": "How well Lily dances!",
+        "why": "well 提前，dances 保留三单。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "连词成句：what / children / happy / they / are / !",
+        "answer": "What happy children they are!",
+        "why": "children 是复数，无 a。",
+        "source": "Day 32 A10"
+      },
+      {
+        "prompt": "对画线部分提问，用 What subject：Lucy likes **English**.",
+        "answer": "What subject does Lucy like?",
+        "why": "subject 问学科，does + like。",
+        "source": "Day 26 A4"
+      }
+    ]
+  },
+  {
+    "day": 34,
+    "title": "同一个意思，用 What 和 How 两种表达",
+    "focus": "What 感叹句突出名词短语；How 感叹句突出形容词 / 副词。改写时要重新组织主语，不能只换第一个词。",
+    "example": "What a nice bag it is! ↔ How nice the bag is!",
+    "main": [
+      {
+        "prompt": "用 How 改写同义感叹句：What a big dog it is!",
+        "answer": "How big the dog is!",
+        "why": "big 后直接接主语 the dog。"
+      },
+      {
+        "prompt": "用 What 改写同义感叹句：How big the dog is!",
+        "answer": "What a big dog it is!",
+        "why": "单数 dog 前要有 a。"
+      },
+      {
+        "prompt": "用 How 改写同义感叹句：What beautiful flowers they are!",
+        "answer": "How beautiful the flowers are!",
+        "why": "the flowers 变为主语。"
+      },
+      {
+        "prompt": "用 What 改写同义感叹句：How beautiful the flowers are!",
+        "answer": "What beautiful flowers they are!",
+        "why": "flowers 是复数，无 a。"
+      },
+      {
+        "prompt": "用 How 改写同义感叹句：What nice weather it is!",
+        "answer": "How nice the weather is!",
+        "why": "the weather 作主语。"
+      },
+      {
+        "prompt": "用 What 改写同义感叹句：How nice the weather is!",
+        "answer": "What nice weather it is!",
+        "why": "weather 不可数，无 a。"
+      },
+      {
+        "prompt": "用 How 改写同义感叹句：What an interesting book it is!",
+        "answer": "How interesting the book is!",
+        "why": "How 后直接接 interesting。"
+      },
+      {
+        "prompt": "用 What 改写同义感叹句：How kind the girl is!",
+        "answer": "What a kind girl she is!",
+        "why": "she 指 the girl。"
+      },
+      {
+        "prompt": "填 What / How：___ fast the boy runs!",
+        "answer": "How",
+        "why": "fast 是副词，后接主语。"
+      },
+      {
+        "prompt": "改正错误：What beautiful the flowers are!",
+        "answer": "How beautiful the flowers are! / What beautiful flowers they are!",
+        "why": "改成任意一套完整结构。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "用 How 改写同义感叹句：What a cute cat it is!",
+        "answer": "How cute the cat is!",
+        "why": "cute 后接主语 the cat。"
+      },
+      {
+        "prompt": "用 What 改写同义感叹句：How old the bike is!",
+        "answer": "What an old bike it is!",
+        "why": "old 前用 an。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "用 How 改为完整感叹句：The cat is cute.",
+        "answer": "How cute the cat is!",
+        "why": "How + cute + the cat is。",
+        "source": "Day 33 A3"
+      },
+      {
+        "prompt": "按天气提问，用 How：It is **sunny** today.",
+        "answer": "How is the weather today?",
+        "why": "问天气状态。",
+        "source": "Day 27 A7"
+      }
+    ]
+  },
+  {
+    "day": 35,
+    "title": "小复习五：感叹和提问别混",
+    "focus": "独立完成。不提供规则或例题；先看题目要求是在提问，还是在感叹。",
+    "example": "",
+    "main": [
+      {
+        "prompt": "用 What 改为完整感叹句：It is a lovely dog.",
+        "answer": "What a lovely dog it is!",
+        "why": "单数 dog 前用 a。"
+      },
+      {
+        "prompt": "用 What 改为完整感叹句：They are beautiful trees.",
+        "answer": "What beautiful trees they are!",
+        "why": "复数不用 a。"
+      },
+      {
+        "prompt": "用 What 改为完整感叹句：It is nice weather.",
+        "answer": "What nice weather it is!",
+        "why": "weather 不可数。"
+      },
+      {
+        "prompt": "用 How 改为完整感叹句：The boy runs fast.",
+        "answer": "How fast the boy runs!",
+        "why": "runs 保留三单。"
+      },
+      {
+        "prompt": "用 How 改为完整感叹句：The girls are happy.",
+        "answer": "How happy the girls are!",
+        "why": "陈述语序 girls are。"
+      },
+      {
+        "prompt": "填 a / an：What ___ interesting game it is!",
+        "answer": "an",
+        "why": "interesting 前用 an。"
+      },
+      {
+        "prompt": "对画线部分提问：The bag is **red**.",
+        "answer": "What colour is the bag?",
+        "why": "这里是在问颜色。"
+      },
+      {
+        "prompt": "用 How 改为完整感叹句：The bag is beautiful.",
+        "answer": "How beautiful the bag is!",
+        "why": "这里是在感叹。"
+      },
+      {
+        "prompt": "改正错误：What a beautiful flowers they are!",
+        "answer": "What beautiful flowers they are!",
+        "why": "flowers 复数，去掉 a。"
+      },
+      {
+        "prompt": "用 How 改写同义感叹句：What a clever girl she is!",
+        "answer": "How clever the girl is! / How clever she is!",
+        "why": "How 后接 clever，再接主语。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "用 What 改为完整感叹句：It is an old house.",
+        "answer": "What an old house it is!",
+        "why": "old 前用 an。"
+      },
+      {
+        "prompt": "对画线部分提问：The flowers are **yellow**.",
+        "answer": "What colour are the flowers?",
+        "why": "问颜色，末尾用问号。"
+      }
+    ],
+    "checkpoint": true,
+    "review": [
+      {
+        "prompt": "用 What 改写同义感叹句：How nice the weather is!",
+        "answer": "What nice weather it is!",
+        "why": "weather 不可数，无 a。",
+        "source": "Day 34 A6"
+      },
+      {
+        "prompt": "拓展选词（How tall / How heavy）：___ is the box? It is five kilograms.",
+        "answer": "How heavy",
+        "why": "问重量。",
+        "source": "Day 28 A10"
+      }
+    ]
+  },
+  {
+    "day": 36,
+    "title": "混合练习一：先说思路，再动笔",
+    "focus": "每题先口头说两件事：题目要问 / 改什么？原句属于哪种结构？需要时可翻前面的规则，做完标记“独立”或“看过提示”。",
+    "example": "She has a bike.（一般疑问句，用 Does）→ 拥有；普通 have 结构 → Does she have a bike?",
+    "main": [
+      {
+        "prompt": "改为一般疑问句：The girl is in the room.",
+        "answer": "Is the girl in the room?",
+        "why": "be 结构，is 提前。"
+      },
+      {
+        "prompt": "改为一般疑问句：The girl can make a cake.",
+        "answer": "Can the girl make a cake?",
+        "why": "can 提前，make 不变。"
+      },
+      {
+        "prompt": "改为一般疑问句：The girl makes cakes on Sunday.",
+        "answer": "Does the girl make cakes on Sunday?",
+        "why": "does + make。"
+      },
+      {
+        "prompt": "改为否定句（用 doesn't）：Tom has a dog.",
+        "answer": "Tom doesn't have a dog.",
+        "why": "has 还原为 have。"
+      },
+      {
+        "prompt": "对画线部分提问：Ben is reading **in the library**.",
+        "answer": "Where is Ben reading?",
+        "why": "地点用 Where，进行时用 is。"
+      },
+      {
+        "prompt": "对画线部分提问：Lucy has **three** pencils.",
+        "answer": "How many pencils does Lucy have?",
+        "why": "问数量，has 还原。"
+      },
+      {
+        "prompt": "改为否定祈使句：Touch the flowers.",
+        "answer": "Don't touch the flowers.",
+        "why": "Don't + 原形。"
+      },
+      {
+        "prompt": "改正错误：Let him goes home.",
+        "answer": "Let him go home.",
+        "why": "let + 宾格 + 原形。"
+      },
+      {
+        "prompt": "用 What 改为完整感叹句：It is a nice picture.",
+        "answer": "What a nice picture it is!",
+        "why": "What + 单数名词短语。"
+      },
+      {
+        "prompt": "用 How 改为完整感叹句：The boy swims well.",
+        "answer": "How well the boy swims!",
+        "why": "How + 副词 + 主语 + 动词。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "对画线部分提问：Tom goes to school **at eight**.（用 What time）",
+        "answer": "What time does Tom go to school?",
+        "why": "does 后用 go。"
+      },
+      {
+        "prompt": "改为一般疑问句，保留 got：Lily has got a red bag.",
+        "answer": "Has Lily got a red bag?",
+        "why": "has 提前。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "改正错误：What a beautiful flowers they are!",
+        "answer": "What beautiful flowers they are!",
+        "why": "flowers 复数，去掉 a。",
+        "source": "Day 35 A9"
+      },
+      {
+        "prompt": "对画线部分提问：**Tom** can swim.",
+        "answer": "Who can swim?",
+        "why": "who 代替 Tom，保留 can。",
+        "source": "Day 29 A3"
+      }
+    ]
+  },
+  {
+    "day": 37,
+    "title": "混合练习二：开始独立改句",
+    "focus": "先独立做，再订正；遇到难题先留空，全部做完后再看提示。",
+    "example": "",
+    "main": [
+      {
+        "prompt": "用所给词填空：Lucy's brother ___ English every day. (study)",
+        "answer": "studies",
+        "why": "单数主语，study 变 studies。"
+      },
+      {
+        "prompt": "改为一般疑问句：The boys are making a cake.",
+        "answer": "Are the boys making a cake?",
+        "why": "进行时把 are 提前。"
+      },
+      {
+        "prompt": "改为否定句：Ben can ride a bike.",
+        "answer": "Ben can't ride a bike.",
+        "why": "can 后加 not。"
+      },
+      {
+        "prompt": "改为一般疑问句（普通询问）：There are some eggs in the box.",
+        "answer": "Are there any eggs in the box?",
+        "why": "are 提前，some 变 any。"
+      },
+      {
+        "prompt": "对画线部分提问，保留 bag：This is **Lily's** bag.",
+        "answer": "Whose bag is this?",
+        "why": "询问归属。"
+      },
+      {
+        "prompt": "对画线部分提问：The toy is **forty yuan**.",
+        "answer": "How much is the toy?",
+        "why": "询问价格。"
+      },
+      {
+        "prompt": "对画线部分提问：**Tom** helps Lucy.",
+        "answer": "Who helps Lucy?",
+        "why": "who 作主语，保留 helps。"
+      },
+      {
+        "prompt": "用 How 改写同义感叹句：What beautiful birds they are!",
+        "answer": "How beautiful the birds are!",
+        "why": "the birds 作主语。"
+      },
+      {
+        "prompt": "改为常用否定形式：Let's play here.",
+        "answer": "Let's not play here.",
+        "why": "Let's not + 原形。"
+      },
+      {
+        "prompt": "根据对话情境选 some / any：May I have ___ water, please?（请求喝一点水）",
+        "answer": "some",
+        "why": "请求并期待肯定回应，可以用 some。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "对画线部分提问：Lucy helps **Ben**.",
+        "answer": "Who does Lucy help? / Whom does Lucy help?",
+        "why": "Lucy 保留，does + help。"
+      },
+      {
+        "prompt": "用 What 改为完整感叹句：It is good news.",
+        "answer": "What good news it is!",
+        "why": "news 不可数，不加 a。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "改为一般疑问句：The girl can make a cake.",
+        "answer": "Can the girl make a cake?",
+        "why": "can 提前，make 不变。",
+        "source": "Day 36 A2"
+      },
+      {
+        "prompt": "对画线部分提问：The dress is **sixty yuan**.",
+        "answer": "How much is the dress?",
+        "why": "问价格。",
+        "source": "Day 30 A6"
+      }
+    ]
+  },
+  {
+    "day": 38,
+    "title": "混合练习三：同词不同作用",
+    "focus": "独立完成。本页出现的 do、have、what、how，要结合整句理解。",
+    "example": "",
+    "main": [
+      {
+        "prompt": "改为一般疑问句：Ben does his homework after dinner.",
+        "answer": "Does Ben do his homework after dinner?",
+        "why": "第一个 Does 帮助提问，后面的 do 表示做作业。"
+      },
+      {
+        "prompt": "改为否定句：Lucy does her homework at school.",
+        "answer": "Lucy doesn't do her homework at school.",
+        "why": "doesn't 后用 do 原形。"
+      },
+      {
+        "prompt": "对画线部分提问：Tom is **a teacher**.（问职业，用 What…do）",
+        "answer": "What does Tom do?",
+        "why": "问职业，不是正在做什么。"
+      },
+      {
+        "prompt": "对画线部分提问：Tom is **reading a book** now.（用 doing 提问）",
+        "answer": "What is Tom doing now?",
+        "why": "问正在做的动作。"
+      },
+      {
+        "prompt": "改为一般疑问句（用 Does）：Lucy has breakfast at seven.",
+        "answer": "Does Lucy have breakfast at seven?",
+        "why": "日常吃早饭是 have 结构。"
+      },
+      {
+        "prompt": "改为一般疑问句，保留 got：Lucy has got a pet.",
+        "answer": "Has Lucy got a pet?",
+        "why": "拥有的 have got 结构。"
+      },
+      {
+        "prompt": "对画线部分提问：It is **Monday**.",
+        "answer": "What day is it?",
+        "why": "星期不是日期。"
+      },
+      {
+        "prompt": "对画线部分提问：It is **12 May**.",
+        "answer": "What date is it?",
+        "why": "日期不是星期。"
+      },
+      {
+        "prompt": "用 How 改为完整感叹句：The dress is beautiful.",
+        "answer": "How beautiful the dress is!",
+        "why": "感叹，用陈述语序。"
+      },
+      {
+        "prompt": "对画线部分提问：The dress is **blue**.",
+        "answer": "What colour is the dress?",
+        "why": "问颜色，用疑问语序。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "改为一般疑问句：Lily does her homework every day.",
+        "answer": "Does Lily do her homework every day?",
+        "why": "Does + 主语 + do。"
+      },
+      {
+        "prompt": "对画线部分提问：Ben is **making a kite** now.（用 doing 提问）",
+        "answer": "What is Ben doing now?",
+        "why": "is + 主语 + doing。"
+      }
+    ],
+    "checkpoint": false,
+    "review": [
+      {
+        "prompt": "对画线部分提问，保留 bag：This is **Lily's** bag.",
+        "answer": "Whose bag is this?",
+        "why": "询问归属。",
+        "source": "Day 37 A5"
+      },
+      {
+        "prompt": "改正错误：What a nice bag is it!",
+        "answer": "What a nice bag it is!",
+        "why": "本套练标准陈述语序。",
+        "source": "Day 31 A9"
+      }
+    ]
+  },
+  {
+    "day": 39,
+    "title": "综合卷 A：不看提示",
+    "focus": "独立完成并记录用时。做完后再看答案；写对但解释不清的题标“△”，订正后做换句题。",
+    "example": "",
+    "main": [
+      {
+        "prompt": "改为一般疑问句：The children are in the park.",
+        "answer": "Are the children in the park?",
+        "why": "children 复数，用 are。"
+      },
+      {
+        "prompt": "改为一般疑问句：Tom can speak English.",
+        "answer": "Can Tom speak English?",
+        "why": "can 提前。"
+      },
+      {
+        "prompt": "改为一般疑问句：Lucy watches TV after dinner.",
+        "answer": "Does Lucy watch TV after dinner?",
+        "why": "watches 还原。"
+      },
+      {
+        "prompt": "改为否定句（用 doesn't）：Ben has a red bike.",
+        "answer": "Ben doesn't have a red bike.",
+        "why": "has 还原。"
+      },
+      {
+        "prompt": "对画线部分提问：There are **eight** ducks in the water.",
+        "answer": "How many ducks are there in the water?",
+        "why": "问数量，ducks 用复数。"
+      },
+      {
+        "prompt": "对画线部分提问，保留 book：That is **Tom's** book.",
+        "answer": "Whose book is that?",
+        "why": "问归属。"
+      },
+      {
+        "prompt": "对画线部分提问：Lily goes to school **on foot**.",
+        "answer": "How does Lily go to school?",
+        "why": "问方式，go 用原形。"
+      },
+      {
+        "prompt": "改为否定祈使句：Let him touch the box.",
+        "answer": "Don't let him touch the box.",
+        "why": "Don't let + 宾语 + 原形。"
+      },
+      {
+        "prompt": "用 What 改为完整感叹句：It is an interesting film.",
+        "answer": "What an interesting film it is!",
+        "why": "interesting 前用 an。"
+      },
+      {
+        "prompt": "用 How 改为完整感叹句：The girls dance well.",
+        "answer": "How well the girls dance!",
+        "why": "well 修饰 dance，陈述语序。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "对画线部分提问：Ben plays football **three times a week**.",
+        "answer": "How often does Ben play football?",
+        "why": "问频率。"
+      },
+      {
+        "prompt": "改为一般疑问句：The girl is making a card.",
+        "answer": "Is the girl making a card?",
+        "why": "进行时把 is 提前。"
+      }
+    ],
+    "checkpoint": true,
+    "review": [
+      {
+        "prompt": "对画线部分提问：It is **12 May**.",
+        "answer": "What date is it?",
+        "why": "日期不是星期。",
+        "source": "Day 38 A8"
+      },
+      {
+        "prompt": "选词：What (a / 不填) nice weather it is!",
+        "answer": "不填",
+        "why": "weather 不可数。",
+        "source": "Day 32 A2"
+      }
+    ]
+  },
+  {
+    "day": 40,
+    "title": "综合卷 B：隔天换句再检查",
+    "focus": "独立完成并记录用时。与综合卷 A 分开做；两卷都能独立完成，再把易错题隔一周重做。",
+    "example": "",
+    "main": [
+      {
+        "prompt": "用所给词填空：My father ___ to work by bus every day. (go)",
+        "answer": "goes",
+        "why": "单数主语的一般现在时。"
+      },
+      {
+        "prompt": "改为一般疑问句，保留 got：Ben has got a robot.",
+        "answer": "Has Ben got a robot?",
+        "why": "has got 结构。"
+      },
+      {
+        "prompt": "改为否定句：The children are running now.",
+        "answer": "The children aren't running now.",
+        "why": "are 后加 not。"
+      },
+      {
+        "prompt": "作否定简短回答：Does Lucy have a ruler?",
+        "answer": "No, she doesn't.",
+        "why": "does 问，doesn't 答。"
+      },
+      {
+        "prompt": "对画线部分提问：**Lily** likes cats.",
+        "answer": "Who likes cats?",
+        "why": "who 作主语。"
+      },
+      {
+        "prompt": "对画线部分提问：Tom is happy **because it is his birthday**.",
+        "answer": "Why is Tom happy?",
+        "why": "原因用 Why，be 结构用 is。"
+      },
+      {
+        "prompt": "对画线部分提问：The shoes are **ninety yuan**.",
+        "answer": "How much are the shoes?",
+        "why": "问价格，复数用 are。"
+      },
+      {
+        "prompt": "改为常用否定形式：Let's swim in the river.",
+        "answer": "Let's not swim in the river.",
+        "why": "Let's not + 原形。"
+      },
+      {
+        "prompt": "用 What 改为完整感叹句：They are beautiful pictures.",
+        "answer": "What beautiful pictures they are!",
+        "why": "复数不用 a。"
+      },
+      {
+        "prompt": "用 How 改写同义感叹句：What a cute dog it is!",
+        "answer": "How cute the dog is!",
+        "why": "the dog 改作主语。"
+      }
+    ],
+    "transfer": [
+      {
+        "prompt": "对画线部分提问，用 What time：Ben has lunch **at twelve**.",
+        "answer": "What time does Ben have lunch?",
+        "why": "has 还原为 have。"
+      },
+      {
+        "prompt": "对画线部分提问：Lucy has **four** books.",
+        "answer": "How many books does Lucy have?",
+        "why": "数量用 How many，has 还原。"
+      }
+    ],
+    "checkpoint": true,
+    "review": [
+      {
+        "prompt": "改为一般疑问句：The children are in the park.",
+        "answer": "Are the children in the park?",
+        "why": "children 复数，用 are。",
+        "source": "Day 39 A1"
+      },
+      {
+        "prompt": "用 How 改为完整感叹句：Lucy is kind.",
+        "answer": "How kind Lucy is!",
+        "why": "How 后不加 a。",
+        "source": "Day 33 A5"
+      }
+    ]
+  }
+]
