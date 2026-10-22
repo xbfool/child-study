@@ -7,8 +7,17 @@
   "pdf_pages": {
     "student": 40,
     "answers": 40,
-    "cheatsheet": 2
+    "cheatsheet": 2,
+    "cheatsheet_A4_crop": 2
   },
+  "crop_cheatsheet_page_mm": [
+    210,
+    297
+  ],
+  "crop_cheatsheet_finished_mm": [
+    185,
+    270
+  ],
   "min_content_y": 89.9,
   "safe_bottom_y": 42,
   "layout_checks": [

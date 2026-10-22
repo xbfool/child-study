@@ -5,6 +5,7 @@ import json
 import re
 import csv
 import os
+import sys
 from xml.sax.saxutils import escape
 
 from reportlab.pdfgen import canvas
@@ -17,6 +18,7 @@ from reportlab.platypus import Paragraph
 from pypdf import PdfReader
 from materials.lessons import LESSONS
 from materials.guide import PARENT, WH
+from materials.cheatsheet_custom import make_crop_cheatsheet
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / 'output'
@@ -334,7 +336,7 @@ def make_text_outputs():
         writer.writerow(['天数','主题','日期','独立正确_共10题','提示后正确','B区正确_共2题','C区正确_共2题','错因_M_S_A_V_W_P','下次复练日期','备注'])
         writer.writerows([d['day'],d['title'],'','','','','','','',''] for d in LESSONS)
     tiles = ''.join(f'<section class="tile"><b>Day {d["day"]:02d} · {html.escape(d["title"])}</b><p>{"独立复习" if d["checkpoint"] else "分项学习与练习"}</p><a href="output/每日练习/Day{d["day"]:02d}.html">打开 / 打印今日练习</a><details><summary>家长入口</summary><a href="output/家长答案/Day{d["day"]:02d}.html">答案与订正</a></details></section>' for d in LESSONS)
-    index = '<h1>40 天英语句型练习</h1><p>从模糊到清晰：先理解，再选择结构，再完整改句。</p><nav><a href="output/pdf/学生练习册.pdf">学生练习册 PDF</a><a href="output/pdf/家长答案与订正.pdf">家长答案 PDF</a><a href="output/pdf/句型速查图.pdf">两张 A4 速查图</a><a href="家长使用说明.md">家长使用说明</a></nav><p class="hint">每天 A 区 10 题 + B 区 2 道换句题 + C 区 2 道旧题复练。学生 PDF 每页对应一天。前期可以看速查图；复习页先独立完成。</p><div class="grid">'+tiles+'</div>'
+    index = '<h1>40 天英语句型练习</h1><p>从模糊到清晰：先理解，再选择结构，再完整改句。</p><nav><a href="output/pdf/学生练习册.pdf">学生练习册 PDF（A4）</a><a href="output/pdf/家长答案与订正.pdf">家长答案 PDF（A4）</a><a href="output/pdf/句型速查图-A4裁剪版.pdf">速查图 A4 裁剪版（成品 185 × 270 mm）</a><a href="output/pdf/句型速查图.pdf">速查图原 A4 版</a><a href="家长使用说明.md">家长使用说明</a></nav><p class="hint">每天 A 区 10 题 + B 区 2 道换句题 + C 区 2 道旧题复练。学生 PDF 每页对应一天。前期可以看速查图；复习页先独立完成。</p><div class="grid">'+tiles+'</div>'
     (ROOT/'index.html').write_text(html_doc('40 天英语句型练习',index),encoding='utf-8')
     schedule = '\n'.join(f"| {d['day']:02d} | {d['title']} | [练习](output/每日练习/Day{d['day']:02d}.md) | [家长答案](output/家长答案/Day{d['day']:02d}.md) |" for d in LESSONS)
     readme = '''# 40 天英语句型练习
@@ -345,12 +347,16 @@ def make_text_outputs():
 
 - [学生练习册 PDF](output/pdf/学生练习册.pdf)：40 页，每页一天。
 - [家长答案与订正 PDF](output/pdf/家长答案与订正.pdf)：40 页，与学生页一一对应。
-- [句型速查图 PDF](output/pdf/句型速查图.pdf)：两张 A4，可放在桌边。
+- [速查图 A4 裁剪版 PDF](output/pdf/句型速查图-A4裁剪版.pdf)：纸张仍是 A4，正中是 185 × 270 mm 成品区域，四周白边，附浅灰裁剪虚线。
+- [速查图 A4 版](output/pdf/句型速查图.pdf)：保留原来的 A4 版。
+- [裁剪版图片 1](output/速查图-A4裁剪版-1.png) / [裁剪版图片 2](output/速查图-A4裁剪版-2.png)：对应裁剪版预览。
 - [速查图 1 图片](output/速查图-1.png) / [速查图 2 图片](output/速查图-2.png)：手机查看或直接打印。
 - [家长使用说明](家长使用说明.md) / [疑问词索引](疑问词索引.md)。
 - 下载整个仓库后，双击 `index.html` 可离线按天查看和打印；不需要安装依赖。GitHub 页面直接查看 Markdown 或下载 PDF 即可。
 
 每天 10 道主练 + 2 道订正换句 + 2 道回顾，共 560 题次（含有意安排的旧题重复）。40 天表示学习顺序，可以按实际负担拆分，不强求连续 40 天做完。
+
+裁剪版打印：纸张选 **A4**、纵向、**实际大小 / 100%**、每张 1 页；打印后沿浅灰虚线裁剪，成品为 185 × 270 mm。无需注册自定义纸张。左右白边各 12.5 mm，上下白边各 13.5 mm；图内另保留 8 mm 阅读边距。内容按成品尺寸重新排版，不是把旧 A4 整张缩小。
 
 ## 学习顺序
 
@@ -373,6 +379,7 @@ python build.py
 
 ```powershell
 pdftoppm -f 1 -l 2 -scale-to 1600 -png output/pdf/句型速查图.pdf output/速查图
+pdftoppm -f 1 -l 2 -scale-to 1800 -png output/pdf/句型速查图-A4裁剪版.pdf output/速查图-A4裁剪版
 ```
 
 `output/空白进度记录.csv` 是空白模板。孩子的实际作答和记录请放在已忽略的 `personal/` 目录，不提交到公开仓库。
@@ -402,16 +409,27 @@ def validate():
                 actual = compact(text)
                 for q in expected['main']+expected['transfer']+get_review(expected):
                     assert compact(q[key]) in actual,(filename,n,q[key])
+    custom = PdfReader(PDF/'句型速查图-A4裁剪版.pdf')
+    assert len(custom.pages)==2
+    for page in custom.pages:
+        assert abs(float(page.mediabox.width)*25.4/72-210)<.01
+        assert abs(float(page.mediabox.height)*25.4/72-297)<.01
+        assert len(page.extract_text())>700
+    previous = json.loads((OUT/'构建检查.json').read_text(encoding='utf-8')) if not MIN_Y else {}
+    positions = MIN_Y or previous['layout_checks']
     report = dict(days=40,main_items=400,transfer_items=80,review_slots=80,total_slots=560,
-                  pdf_pages={'student':40,'answers':40,'cheatsheet':2},
-                  min_content_y=min(v[2] for v in MIN_Y),
-                  safe_bottom_y=42,layout_checks=MIN_Y)
+                  pdf_pages={'student':40,'answers':40,'cheatsheet':2,'cheatsheet_A4_crop':2},
+                  crop_cheatsheet_page_mm=[210,297],crop_cheatsheet_finished_mm=[185,270],
+                  min_content_y=min(v[2] for v in positions),
+                  safe_bottom_y=42,layout_checks=positions)
     (OUT/'构建检查.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps({k:v for k,v in report.items() if k!='layout_checks'},ensure_ascii=False))
 
 if __name__=='__main__':
     PDF.mkdir(parents=True,exist_ok=True)
-    make_books()
-    make_cheatsheet()
+    if '--custom-cheatsheet-only' not in sys.argv:
+        make_books()
+        make_cheatsheet()
+    make_crop_cheatsheet(PDF/'句型速查图-A4裁剪版.pdf')
     make_text_outputs()
     validate()
